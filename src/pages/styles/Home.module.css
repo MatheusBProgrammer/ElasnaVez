@@ -1,24 +1,35 @@
-.container {
-  position: absolute;
+.pageElements {
   background-image: url("../../assets/imgs/background.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  padding: 3em;
+}
+
+.container1 {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 3em;
-  width: 100%;
-  height: 100vh;
+  height: 70vh;
+}
+.container div h2 {
+  padding-bottom: 1em;
 }
 .contentLeft,
 .contentRight,
 .contentCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   border-radius: 15px;
   background-color: white;
   padding: 1em;
   margin: 0.5em;
-  height: 40%;
+  min-width: 25%;
+  min-height: 30%;
   position: relative;
   box-shadow: 0px 1px 5px 0.5px black;
 }
@@ -27,4 +38,42 @@
   margin-left: 3em;
   margin-right: 3em;
   top: 4em;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+
+.bottomElements {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 100%;
+  height: 25%;
+}
+.bottomElements svg {
+  font-size: 5em;
+  color: rgb(141, 106, 106);
+}
+.bottomIconBox {
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 8%;
+  height: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  .contentCenter,
+  .contentLeft,
+  .contentRight {
+    position: static;
+  }
 }

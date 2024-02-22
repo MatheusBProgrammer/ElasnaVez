@@ -31,6 +31,7 @@
   cursor: pointer;
 }
 .submenu {
+  z-index: 1;
   position: absolute;
   width: 15%;
   top: 5.5em;
@@ -40,8 +41,13 @@
   background-color: #ffe4e1;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 .submenu a {
   border: 0.5px solid #5e535144;
+}
+@media (max-width: 1180px) {
+  .submenu {
+    transition: 0.5s;
+    width: 100%;
+  }
 }
