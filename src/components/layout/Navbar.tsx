@@ -35,11 +35,21 @@ function Navbar() {
           <Link to="/section5">SubSeção 5</Link>
         </animated.div>
       )}
-      <Link to="/">Seção 1</Link>
-      <Link to="/">Seção 2</Link>
-      <Link to="/">Seção 3</Link>
-      <Link to="/">Home</Link>
-      <Link to="/">Seção 4</Link>
+      <Link to="/" className={styles.navbarItem1}>
+        Home
+      </Link>
+      <Link to="/timeline" className={styles.navbarItem2}>
+        Linha temporal
+      </Link>
+      <Link to="/" className={styles.navbarItem3}>
+        Seção 2
+      </Link>
+      <Link to="/" className={styles.navbarItem4}>
+        Seção 3
+      </Link>
+      <Link to="/" className={styles.navbarItem5}>
+        Seção 4
+      </Link>
       <Link to="/sobre">Sobre</Link>
     </div>
   );

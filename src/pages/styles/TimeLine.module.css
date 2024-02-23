@@ -1,0 +1,9 @@
+.container {
+  background-image: url("../../assets/imgs/BackgroundTimeline2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 110vh;
+  max-height: 130vh;
+  width: 100%;
+}
