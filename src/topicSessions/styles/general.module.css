@@ -47,3 +47,17 @@
 .more:hover {
   display: none;
 }
+@media (max-width: 1000px) {
+  .more {
+    font-size: 1em;
+    top: 60%;
+    left: 60%;
+  }
+  .subTopicsMenu {
+    flex-direction: column;
+  }
+  .topicItem img {
+    height: 100%;
+    width: 100%;
+  }
+}
