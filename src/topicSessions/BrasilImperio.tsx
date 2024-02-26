@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import styles from "./styles/general.module.css";
 import brasilimperioimg from "../assets/imgs/brasilimperioimg.jpg";
 import isabel from "../assets/imgs/isabel.jpg";

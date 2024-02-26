@@ -1,8 +1,6 @@
-import React from "react";
 import styles from "./styles/Home.module.css";
 import AnimatedPage from "../components/animations/AnimatedPage";
 import { useSpring, animated } from "react-spring";
-import { GrChat } from "react-icons/gr";
 
 function Home() {
   const propsLeft = useSpring({

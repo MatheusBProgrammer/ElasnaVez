@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./styles/TimeLine.module.css";
 import AnimatedPage from "../components/animations/AnimatedPage";
 import img1 from "../assets/imgs/img1.jpg";
-import img2 from "../assets/imgs/img2.jpg";
 import img3 from "../assets/imgs/img3.jpg";
 import img4 from "../assets/imgs/img4.jpg";
 import img5 from "../assets/imgs/img5.jpg";

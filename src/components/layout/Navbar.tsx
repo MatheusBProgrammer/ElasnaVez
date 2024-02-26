@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styles from "./styles/Navbar.module.css";
 import { Link } from "react-router-dom";
 import { IoMdMenu } from "react-icons/io";
