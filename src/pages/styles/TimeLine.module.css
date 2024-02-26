@@ -1,9 +1,47 @@
 .container {
-  background-image: url("../../assets/imgs/BackgroundTimeline2.jpeg");
+  background-image: url("../../assets/imgs/background3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 110vh;
-  max-height: 130vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 3em;
+}
+
+.menu {
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  overflow: hidden;
+}
+.menuItem {
+  transition: 1s;
+  position: relative;
+  height: 100%;
+  cursor: pointer;
+}
+.menu img {
+  height: 20vh;
+  margin: 0;
+  width: 400px;
+  padding: 0;
+}
+.menu img:hover {
+  transition: 0.2s;
+  opacity: 0.5;
+}
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  height: 5vh;
 }

@@ -1,0 +1,49 @@
+.generalInfo {
+  position: relative;
+  margin: 1em;
+}
+.generalInfo p {
+  padding: 1em;
+  font-size: 1em;
+  text-align: start;
+}
+.generalInfo img {
+  border-radius: 15px;
+  margin: 0.5em;
+}
+.subTopicsMenu {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topicItem {
+  position: relative; /* Isto permite que elementos absolutamente posicionados dentro dele sejam relativos a ele */
+  min-height: 30vh;
+  width: 35%;
+}
+
+.topicItem img {
+  cursor: pointer;
+  height: 20vh;
+  width: 20ch;
+  border-radius: 20%;
+}
+.topicItem img:hover {
+}
+
+.more {
+  transition: 1s;
+  position: absolute;
+  background-color: white;
+  padding: 0.5em;
+  border-radius: 15px;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1em;
+  transition: 1s;
+}
+.more:hover {
+  display: none;
+}

@@ -5,6 +5,7 @@ input,
 textarea,
 select,
 button {
+  font-family: "Cormorant Garamond", serif;
   box-sizing: border-box;
 }
 body,
