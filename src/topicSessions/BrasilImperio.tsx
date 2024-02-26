@@ -110,12 +110,14 @@ A importância de Nísia Floresta transcende o seu tempo, pois suas ideias e rea
             da escravidão, que perdurou por quase todo o período imperial, as
             mulheres escravizadas desempenharam um papel crucial na economia
             doméstica e na produção agrícola.
-          </p>{" "}
-          Além disso, muitas dessas mulheres resistiram de maneiras sutis e
-          explícitas ao sistema escravocrata, contribuindo para a preservação de
-          práticas culturais africanas e para a luta pela liberdade. A abolição
-          da escravatura em 1888, liderada pela Princesa Isabel, é
-          frequentemente citada como o ápice da influência feminina no período.{" "}
+          </p>
+          <p>
+            Além disso, muitas dessas mulheres resistiram de maneiras sutis e
+            explícitas ao sistema escravocrata, contribuindo para a preservação
+            de práticas culturais africanas e para a luta pela liberdade. A
+            abolição da escravatura em 1888, liderada pela Princesa Isabel, é
+            frequentemente citada como o ápice da influência feminina no período
+          </p>
           <p>
             No entanto, a luta pela abolição contou com a participação ativa de
             inúmeras mulheres anônimas, tanto negras quanto brancas, que atuaram
@@ -135,24 +137,6 @@ A importância de Nísia Floresta transcende o seu tempo, pois suas ideias e rea
             ações, tanto no âmbito público quanto no privado, contribuíram para
             a formação de um Brasil em transição, caminhando lentamente em
             direção a uma sociedade mais inclusiva e diversificada.
-          </p>
-          <h4>Princesa Isabel</h4>
-          <p>
-            Conhecida como "A Redentora", Princesa Isabel foi a responsável pela
-            assinatura da Lei Áurea em 13 de maio de 1888, que aboliu a
-            escravidão no Brasil. Sua ação foi um marco na história brasileira,
-            alterando profundamente a sociedade e a economia. Isabel é lembrada
-            por seu comprometimento com a causa abolicionista, apesar das fortes
-            resistências políticas e econômicas.
-          </p>
-          <h4>Nísia Floresta</h4>
-          <p>
-            Nísia Floresta Brasileira Augusta, uma intelectual, educadora e
-            escritora, foi uma das primeiras vozes femininas a se levantar em
-            favor da educação das mulheres e contra a escravidão no Brasil. Sua
-            obra abrange desde a poesia até tratados educacionais e ensaios
-            sobre os direitos das mulheres, marcando seu papel como uma das
-            precursoras do feminismo no Brasil.
           </p>
         </section>
 

@@ -32,79 +32,76 @@ function Renascimento() {
     <div className={styles.generalInfo}>
       <div>
         <section>
-          <h1>Renascimento</h1>
-          <img src={brasilcoloniaimg} alt="BrasilColonia.png" />
+          <h1>O Renascimento</h1>
+          <img src={brasilcoloniaimg} alt="Renascimento.png" />
           <p>
-            O Brasil Colonial refere-se ao período da história brasileira entre
-            1500, com a chegada dos portugueses, e 1822, quando o Brasil
-            declarou sua independência de Portugal. Este período é marcado por
-            uma série de transformações políticas, econômicas, sociais e
-            culturais, que foram fundamentais para a formação do Brasil
-            contemporâneo.
+            O Renascimento foi um movimento cultural que marcou a transição da
+            Idade Média para a Modernidade, ocorrendo principalmente entre os
+            séculos XIV e XVII na Europa. Caracterizado por um renascimento do
+            interesse pelas artes, ciência e filosofia da Antiguidade, este
+            período destacou-se pela valorização do humanismo, pela exploração
+            de novas técnicas artísticas e pelo avanço significativo do
+            conhecimento científico.
           </p>
-          <h3>Descobrimento e Colonização</h3>
+          <h3>Humanismo e Redescoberta da Antiguidade</h3>
           <p>
-            A chegada de Pedro Álvares Cabral em 1500 marca o início da era
-            colonial brasileira. Inicialmente, o interesse português no Brasil
-            estava centrado na extração do pau-brasil, uma madeira valiosa
-            utilizada na Europa para a produção de tintas. O comércio do
-            pau-brasil era realizado principalmente através do escambo com os
-            povos indígenas.
+            O humanismo renascentista promoveu a redescoberta e estudo dos
+            textos clássicos gregos e romanos, enfatizando a dignidade, o
+            potencial e o valor do ser humano. Esse movimento filosófico
+            influenciou todas as áreas do conhecimento, da literatura às artes,
+            moldando uma nova concepção de mundo centrada no indivíduo e na
+            natureza.
           </p>
-          <h3>Expansão Territorial e Econômica</h3>
+          <h3>Inovações nas Artes</h3>
           <p>
-            A partir de meados do século XVI, com a introdução da
-            cana-de-açúcar, o Brasil começou a ganhar mais importância para a
-            coroa portuguesa. O cultivo da cana-de-açúcar exigiu uma grande
-            quantidade de mão de obra, o que levou ao início do tráfico
-            transatlântico de escravos da África para o Brasil. As plantações de
-            açúcar, ou engenhos, tornaram-se a espinha dorsal da economia
-            colonial brasileira, juntamente com a mineração de ouro e diamantes
-            que ganhou destaque no século XVIII.
+            O Renascimento foi marcado por extraordinários avanços nas artes,
+            com o desenvolvimento de técnicas como a perspectiva linear, o
+            chiaroscuro (jogo de luz e sombra) e o sfumato. Essas inovações
+            permitiram uma representação mais realista do mundo natural e
+            humano. Artistas como Leonardo da Vinci, Michelangelo e Rafael são
+            alguns dos nomes que definiram o padrão de excelência artística da
+            época.
           </p>
-          <h3>Administração Colonial</h3>
+          <h3>Revolução Científica</h3>
           <p>
-            A administração colonial portuguesa era caracterizada por um sistema
-            de capitanias hereditárias, posteriormente substituído por um
-            governo geral. Este sistema visava à exploração e colonização do
-            território de forma mais eficaz. A sociedade colonial era
-            profundamente estratificada, com uma rígida hierarquia social
-            baseada em raça, nascimento e riqueza.
+            Paralelamente às artes, o Renascimento também foi um período de
+            grandes avanços científicos. A aplicação do método empírico e o
+            questionamento das verdades estabelecidas pela Igreja Católica
+            levaram a descobertas significativas em várias áreas, como a
+            astronomia, com Galileu Galilei; a anatomia, com Andreas Vesalius; e
+            a física, com Isaac Newton.
           </p>
-          <h3>Influência Feminina no Período Colonial</h3>
+          <h3>Explorações Geográficas</h3>
           <p>
-            As mulheres tiveram um papel significativo, embora muitas vezes
-            subestimado, na história colonial brasileira. Suas contribuições
-            variavam de acordo com a classe social, raça e origem, mas, de forma
-            geral, incluíam o trabalho na agricultura, a participação na
-            economia doméstica e, em alguns casos, o envolvimento em atividades
-            comerciais e artesanais.
+            A era do Renascimento coincidiu com a era das grandes explorações
+            geográficas, impulsionada pelo desejo de novas rotas comerciais e
+            pela curiosidade sobre o mundo. Exploradores como Cristóvão Colombo,
+            Vasco da Gama e Fernão de Magalhães expandiram o conhecimento
+            geográfico do mundo, desencadeando processos que mudariam o curso da
+            história humana.
           </p>
-          <h4>Mulheres Indígenas</h4>
+          <h3>Legado do Renascimento</h3>
           <p>
-            As mulheres indígenas desempenharam um papel crucial na mediação
-            cultural e na miscigenação durante o período inicial da colonização.
-            Elas foram fundamentais na transmissão de conhecimentos sobre
-            técnicas agrícolas locais, medicina tradicional e línguas nativas.
+            O legado do Renascimento é imenso, influenciando profundamente o
+            desenvolvimento subsequente da cultura ocidental. Seu espírito de
+            inquirição e ênfase na observação direta e na racionalidade
+            pavimentaram o caminho para a Iluminação e a moderna pesquisa
+            científica. As obras de arte produzidas durante este período
+            continuam a ser celebradas como algumas das maiores realizações
+            humanas.
           </p>
-          <h4>Mulheres Africanas e Afrodescendentes</h4>
+          <h4>Figuras de Destaque do Renascimento</h4>
           <p>
-            As mulheres africanas e suas descendentes, muitas delas
-            escravizadas, tiveram um papel central na economia doméstica
-            colonial, na agricultura e na formação cultural do Brasil. A
-            resistência ao sistema escravocrata, seja através de fugas, formação
-            de quilombos ou resistência cotidiana, também contou com a
-            participação ativa das mulheres.
-          </p>
-          <h4>Mulheres Europeias</h4>
-          <p>
-            As mulheres europeias, principalmente as de classes mais abastadas,
-            exerciam influência principalmente no âmbito doméstico e social. No
-            entanto, algumas se destacaram em outros campos, como a educação e a
-            assistência social, contribuindo para a formação da sociedade
-            colonial.
+            Além dos já mencionados Leonardo da Vinci, Michelangelo, Rafael,
+            Galileu Galilei, e Isaac Newton, o Renascimento também foi
+            enriquecido por figuras como Niccolò Machiavelli, na política;
+            William Shakespeare, na literatura; e Filippo Brunelleschi, na
+            arquitetura. Estes indivíduos, entre outros, contribuíram para um
+            período de extraordinária florescência em diversas áreas do
+            conhecimento humano.
           </p>
         </section>
+
         <h2>Mulheres em Destaque:</h2>
         <div className={styles.subTopicsMenu}>
           {subTopicImages.map((image, index) => (
@@ -123,7 +120,15 @@ function Renascimento() {
               />
               <h5>{image.name}</h5>
               {showMore === index && (
-                <div className={styles.more}>Mostrar mais...</div>
+                <div
+                  className={styles.more}
+                  onClick={() => {
+                    setShowMore(null);
+                    setShowInfo(showInfo === index ? null : index);
+                  }}
+                >
+                  Mostrar mais...
+                </div>
               )}
               {showInfo === index && (
                 <AnimatedPage>{informacoes[index].article}</AnimatedPage>

@@ -123,7 +123,15 @@ function RProtestante() {
               />
               <h5>{image.name}</h5>
               {showMore === index && (
-                <div className={styles.more}>Mostrar mais...</div>
+                <div
+                  className={styles.more}
+                  onClick={() => {
+                    setShowMore(null);
+                    setShowInfo(showInfo === index ? null : index);
+                  }}
+                >
+                  Mostrar mais...
+                </div>
               )}
               {showInfo === index && (
                 <AnimatedPage>{informacoes[index].article}</AnimatedPage>
