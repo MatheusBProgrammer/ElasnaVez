@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./styles/general.module.css";
-import brasilcoloniaimg from "../assets/imgs/brasilcoloniaimg.jpg";
+import reformaprotestanteimg from "../assets/imgs/reformaprotestanteimg.jpg";
 import catarina from "../assets/imgs/catarina.jpg";
 import anastacia from "../assets/imgs/anastacia.jpg";
 import AnimatedPage from "../components/animations/AnimatedPage";
@@ -33,7 +33,7 @@ function RProtestante() {
       <div>
         <section>
           <h1>Reforma Protestante</h1>
-          <img src={brasilcoloniaimg} alt="BrasilColonia.png" />
+          <img src={reformaprotestanteimg} alt="BrasilColonia.png" />
           <p>
             O Brasil Colonial refere-se ao período da história brasileira entre
             1500, com a chegada dos portugueses, e 1822, quando o Brasil

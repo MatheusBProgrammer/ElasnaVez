@@ -86,15 +86,17 @@ function Regencial() {
             especialmente com a ascensão ao trono de Dom Pedro II e o início de
             seu longo reinado.
           </p>
-          <h4>Figuras de Destaque no Período Regencial</h4>
+          <h4>Figuras femininas de destáque no Período Regencial</h4>
           <p>
-            Várias figuras se destacaram durante o Período Regencial, tanto na
-            política quanto em movimentos sociais e culturais. Líderes de
-            revoltas e regentes, como Diogo Antônio Feijó e Padre Diogo Feijó,
-            tiveram papéis significativos na governança e nas lutas internas do
-            país. Personalidades como Bernardo Pereira de Vasconcelos e
-            Francisco de Lima e Silva também foram fundamentais nas discussões
-            políticas e na implementação de reformas.
+            O Período Regencial no Brasil, marcado por intensas disputas
+            políticas e sociais entre 1831 e 1840, também foi palco do
+            surgimento e atuação de diversas figuras femininas notáveis, embora
+            suas histórias muitas vezes permaneçam menos documentadas ou
+            valorizadas pela historiografia tradicional. Estas mulheres
+            desempenharam papéis cruciais não apenas no contexto doméstico ou
+            como inspiração para movimentos e decisões políticas, mas também em
+            esferas de influência direta, seja na política, em movimentos
+            sociais, culturais ou nas revoltas que marcaram o período.
           </p>
         </section>
 

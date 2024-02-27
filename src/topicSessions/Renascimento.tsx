@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./styles/general.module.css";
 import renascimento from "../assets/imgs/renascimentoimg.jpg";
-import catarina from "../assets/imgs/catarina.jpg";
-import anastacia from "../assets/imgs/anastacia.jpg";
+import isabel from "../assets/imgs/isabel.jpg";
+import artemisia from "../assets/imgs/artemisia.jpg";
 import AnimatedPage from "../components/animations/AnimatedPage";
 
 function Renascimento() {
@@ -11,20 +11,18 @@ function Renascimento() {
 
   React.useEffect(() => {}, [showInfo, showMore]);
   const subTopicImages = [
-    { src: catarina, name: "Catarina Álvares Paraguaçu" },
-    { src: anastacia, name: "Anastácia" },
+    { src: isabel, name: "Isabella d'Este" },
+    { src: artemisia, name: "Artemisia Gentileschi" },
   ];
 
   const informacoes = [
     {
-      name: "Catarina",
-      article:
-        "Paraguaçu foi uma indígena tupinambá que teve um papel notável na história do Brasil colonial. Ela foi uma das primeiras indígenas batizadas no cristianismo no Brasil e se casou com o colonizador português Diogo Álvares Correia, conhecido como Caramuru. Sua história é importante por simbolizar as primeiras relações entre europeus e os povos indígenas brasileiros. Paraguaçu é uma figura emblemática, representando tanto a resistência quanto a assimilação e a intermediação cultural entre os indígenas e os portugueses. Ela viajou para a França com Caramuru e lá foi batizada como Catarina Álvares Paraguaçu. Ao retornarem ao Brasil, contribuíram para a fundação da cidade de Salvador, na Bahia.",
+      name: "Isabella d'Este",
+      article: `Conhecida como a "Primeira Dama do Renascimento", Isabella d'Este, Marquesa de Mântua, foi uma patrona das artes e uma líder política influente. Sua corte foi um centro para artistas e intelectuais. Isabella não só apoiou financeiramente muitos artistas renomados, mas também participou ativamente de debates intelectuais e colecionou uma das mais importantes bibliotecas e galerias de arte de sua época.`,
     },
     {
-      name: "Catarina",
-      article:
-        "Embora envolta em lendas e mistérios, a figura de Anastácia é um símbolo de resistência contra a escravidão no Brasil. Descrita como uma mulher africana de extraordinária beleza e força de espírito, Anastácia é frequentemente representada com uma máscara de ferro, um instrumento de tortura usado para silenciá-la. Segundo as histórias, ela foi uma escrava que lutou contra a sua condição, resistindo às opressões e abusos dos senhores de escravos. A história de Anastácia se mistura entre a realidade e a lenda, mas ela é venerada como uma santa popular por muitos brasileiros, especialmente na comunidade afro-brasileira, representando a luta pela liberdade e dignidade.",
+      name: "Artemisia Gentileschi",
+      article: `Artemisia Gentileschi é uma das pintoras mais aclamadas do período barroco, conhecida por suas representações dramáticas e sua técnica excepcional. Suas obras frequentemente retratam temas de mulheres fortes e desafiantes, refletindo talvez suas próprias experiências de vida, incluindo sua luta contra as convenções de gênero de seu tempo.`,
     },
   ];
 
@@ -90,15 +88,17 @@ function Renascimento() {
             continuam a ser celebradas como algumas das maiores realizações
             humanas.
           </p>
-          <h4>Figuras de Destaque do Renascimento</h4>
+          <h4>Figuras femininas de Destaque do Renascimento</h4>
           <p>
-            Além dos já mencionados Leonardo da Vinci, Michelangelo, Rafael,
-            Galileu Galilei, e Isaac Newton, o Renascimento também foi
-            enriquecido por figuras como Niccolò Machiavelli, na política;
-            William Shakespeare, na literatura; e Filippo Brunelleschi, na
-            arquitetura. Estes indivíduos, entre outros, contribuíram para um
-            período de extraordinária florescência em diversas áreas do
-            conhecimento humano.
+            O Renascimento Europeu, um período de profunda renovação cultural,
+            artística, política e científica que se estendeu aproximadamente do
+            século XIV ao XVII, é frequentemente lembrado pelos feitos de
+            figuras masculinas proeminentes como Leonardo da Vinci,
+            Michelangelo, e Galileu Galilei. No entanto, este período também foi
+            marcado pela contribuição significativa de mulheres notáveis que,
+            apesar das restrições sociais e educacionais impostas pelo gênero,
+            conseguiram influenciar e participar ativamente das mudanças
+            culturais, artísticas e intelectuais de sua época.
           </p>
         </section>
 

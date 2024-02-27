@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./styles/general.module.css";
-import brasilcoloniaimg from "../assets/imgs/brasilcoloniaimg.jpg";
-import catarina from "../assets/imgs/catarina.jpg";
-import anastacia from "../assets/imgs/anastacia.jpg";
+import expansaomaritimaimg from "../assets/imgs/expansaomaritimaimg.jpg";
+import isabel from "../assets/imgs/isabel2.jpg";
+import braganca from "../assets/imgs/braganca.jpg";
 import AnimatedPage from "../components/animations/AnimatedPage";
 
 function EMaritima() {
@@ -11,20 +11,26 @@ function EMaritima() {
 
   React.useEffect(() => {}, [showInfo, showMore]);
   const subTopicImages = [
-    { src: catarina, name: "Catarina Álvares Paraguaçu" },
-    { src: anastacia, name: "Anastácia" },
+    { src: isabel, name: "Isabel I" },
+    { src: braganca, name: "Catarina de Bragança" },
   ];
 
   const informacoes = [
     {
-      name: "Catarina",
-      article:
-        "Paraguaçu foi uma indígena tupinambá que teve um papel notável na história do Brasil colonial. Ela foi uma das primeiras indígenas batizadas no cristianismo no Brasil e se casou com o colonizador português Diogo Álvares Correia, conhecido como Caramuru. Sua história é importante por simbolizar as primeiras relações entre europeus e os povos indígenas brasileiros. Paraguaçu é uma figura emblemática, representando tanto a resistência quanto a assimilação e a intermediação cultural entre os indígenas e os portugueses. Ela viajou para a França com Caramuru e lá foi batizada como Catarina Álvares Paraguaçu. Ao retornarem ao Brasil, contribuíram para a fundação da cidade de Salvador, na Bahia.",
+      name: "Isabel I",
+      article: `Isabel I da Espanha, também conhecida como Isabel, a Católica (1451-1504), foi uma figura-chave na história da Espanha e do mundo durante o final do século XV e início do século XVI. Ela se tornou rainha de Castela em 1474, após a morte de seu meio-irmão, Henrique IV de Castela. Seu casamento com Fernando II de Aragão em 1469 foi um passo crucial para a unificação da Espanha, uma vez que uniu as coroas de Castela e Aragão, embora os reinos continuassem a operar independentemente sob uma monarquia dual.
+
+Isabel é mais conhecida por seu papel no patrocínio da viagem de Cristóvão Colombo em 1492, que levou à descoberta das Américas para a Europa e iniciou a era da exploração e colonização espanhola do Novo Mundo. Esse feito não apenas expandiu significativamente o império espanhol e suas riquezas, mas também teve profundas consequências para a história mundial, desencadeando o intercâmbio colombiano e alterando os equilíbrios econômicos e culturais globais.
+
+Seu reinado também é notável pela conclusão da Reconquista, com a captura de Granada em 1492, eliminando o último reduto muçulmano na península Ibérica. Além disso, Isabel e Fernando estabeleceram a Inquisição Espanhola em 1478, um movimento que visava consolidar a ortodoxia católica em seus reinos, mas que também levou à perseguição de judeus, muçulmanos e outros considerados hereges.`,
     },
     {
-      name: "Catarina",
-      article:
-        "Embora envolta em lendas e mistérios, a figura de Anastácia é um símbolo de resistência contra a escravidão no Brasil. Descrita como uma mulher africana de extraordinária beleza e força de espírito, Anastácia é frequentemente representada com uma máscara de ferro, um instrumento de tortura usado para silenciá-la. Segundo as histórias, ela foi uma escrava que lutou contra a sua condição, resistindo às opressões e abusos dos senhores de escravos. A história de Anastácia se mistura entre a realidade e a lenda, mas ela é venerada como uma santa popular por muitos brasileiros, especialmente na comunidade afro-brasileira, representando a luta pela liberdade e dignidade.",
+      name: "Catarina de Bragança",
+      article: `Catarina de Bragança (1638-1705) foi uma infanta portuguesa que se tornou rainha da Inglaterra, Escócia e Irlanda por meio de seu casamento com o rei Carlos II da Inglaterra em 1662. Sua união foi arranjada como parte de uma aliança política e um dote que incluiu direitos comerciais valiosos para a Inglaterra em territórios portugueses, além de Tangier e Bombaim, aumentando significativamente a influência inglesa no comércio global.
+
+Embora Catarina não tenha tido filhos que sobreviveram à infância, sua presença na corte inglesa teve um impacto cultural duradouro. Ela é frequentemente creditada por introduzir o costume do chá da tarde na Inglaterra, uma tradição que se tornou um elemento central da sociedade britânica. Sua fé católica romana também foi um ponto de tensão durante seu reinado, numa época em que o antipapismo estava em alta na Inglaterra. Apesar dessas dificuldades, Catarina manteve sua dignidade e popularidade entre o povo, sobrevivendo até mesmo ao marido e vivendo o resto de seus dias na Inglaterra, antes de retornar a Portugal, onde faleceu.
+
+Ambas as rainhas, Isabel I da Espanha e Catarina de Bragança, deixaram legados duradouros que transcendem suas vidas, influenciando não apenas os eventos de suas respectivas épocas, mas também a cultura e a política mundiais de maneiras que ainda são sentidas hoje.`,
     },
   ];
 
@@ -33,78 +39,68 @@ function EMaritima() {
       <div>
         <section>
           <h1>Expansão Marítima</h1>
-          <img src={brasilcoloniaimg} alt="BrasilColonia.png" />
+          <img src={expansaomaritimaimg} alt="Expansão Marítima" />
           <p>
-            O Brasil Colonial refere-se ao período da história brasileira entre
-            1500, com a chegada dos portugueses, e 1822, quando o Brasil
-            declarou sua independência de Portugal. Este período é marcado por
-            uma série de transformações políticas, econômicas, sociais e
-            culturais, que foram fundamentais para a formação do Brasil
-            contemporâneo.
+            A Expansão Marítima, ocorrida entre os séculos XV e XVI, foi um
+            período de grandes descobertas geográficas realizadas pelas nações
+            europeias, marcando o início da era dos descobrimentos. Este
+            movimento foi impulsionado pela busca de novas rotas comerciais,
+            pela necessidade de acesso direto às riquezas do Oriente e pela
+            expansão do Cristianismo. As viagens marítimas levaram à descoberta
+            de novas terras, à ampliação dos horizontes geográficos e culturais
+            e ao estabelecimento de impérios coloniais.
           </p>
-          <h3>Descobrimento e Colonização</h3>
+          <h3>Inovações Náuticas</h3>
           <p>
-            A chegada de Pedro Álvares Cabral em 1500 marca o início da era
-            colonial brasileira. Inicialmente, o interesse português no Brasil
-            estava centrado na extração do pau-brasil, uma madeira valiosa
-            utilizada na Europa para a produção de tintas. O comércio do
-            pau-brasil era realizado principalmente através do escambo com os
-            povos indígenas.
+            O sucesso das expedições marítimas foi possibilitado por avanços
+            significativos na tecnologia náutica, incluindo o aperfeiçoamento da
+            caravela, a introdução do astrolábio e o desenvolvimento de mapas
+            mais precisos. Essas inovações permitiram aos navegadores europeus
+            viajar mais longe e com maior segurança, abrindo novas rotas pelo
+            globo.
           </p>
-          <h3>Expansão Territorial e Econômica</h3>
+          <h3>Principais Exploradores</h3>
           <p>
-            A partir de meados do século XVI, com a introdução da
-            cana-de-açúcar, o Brasil começou a ganhar mais importância para a
-            coroa portuguesa. O cultivo da cana-de-açúcar exigiu uma grande
-            quantidade de mão de obra, o que levou ao início do tráfico
-            transatlântico de escravos da África para o Brasil. As plantações de
-            açúcar, ou engenhos, tornaram-se a espinha dorsal da economia
-            colonial brasileira, juntamente com a mineração de ouro e diamantes
-            que ganhou destaque no século XVIII.
+            Figuras como Vasco da Gama, que encontrou o caminho marítimo para a
+            Índia contornando o Cabo da Boa Esperança, e Cristóvão Colombo, que
+            chegou às Américas em 1492, são emblemáticas deste período. Outros
+            exploradores, como Fernão de Magalhães, que liderou a primeira
+            expedição a circum-navegar o globo, também são fundamentais para
+            compreender a magnitude das explorações marítimas.
           </p>
-          <h3>Administração Colonial</h3>
+          <h3>Impactos Globais</h3>
           <p>
-            A administração colonial portuguesa era caracterizada por um sistema
-            de capitanias hereditárias, posteriormente substituído por um
-            governo geral. Este sistema visava à exploração e colonização do
-            território de forma mais eficaz. A sociedade colonial era
-            profundamente estratificada, com uma rígida hierarquia social
-            baseada em raça, nascimento e riqueza.
+            A Expansão Marítima teve profundos impactos globais, incluindo o
+            intercâmbio de culturas, mercadorias e tecnologias entre o Velho e o
+            Novo Mundo. Este período também foi marcado pelo início do sistema
+            de comércio transatlântico de escravos e pelo estabelecimento de
+            rotas comerciais que conectaram diversos continentes.
           </p>
-          <h3>Influência Feminina no Período Colonial</h3>
+          <h3>Consequências Políticas e Econômicas</h3>
           <p>
-            As mulheres tiveram um papel significativo, embora muitas vezes
-            subestimado, na história colonial brasileira. Suas contribuições
-            variavam de acordo com a classe social, raça e origem, mas, de forma
-            geral, incluíam o trabalho na agricultura, a participação na
-            economia doméstica e, em alguns casos, o envolvimento em atividades
-            comerciais e artesanais.
+            A chegada a novas terras e a subsequente colonização tiveram grandes
+            consequências políticas e econômicas, incluindo o aumento do poder
+            marítimo e comercial de nações como Portugal e Espanha. A competição
+            entre as potências europeias pelos territórios recém-descobertos e
+            suas riquezas foi um dos motores da política internacional durante
+            séculos.
           </p>
-          <h4>Mulheres Indígenas</h4>
+          <h4>Figuras Femininas na Expansão Marítima</h4>
           <p>
-            As mulheres indígenas desempenharam um papel crucial na mediação
-            cultural e na miscigenação durante o período inicial da colonização.
-            Elas foram fundamentais na transmissão de conhecimentos sobre
-            técnicas agrícolas locais, medicina tradicional e línguas nativas.
-          </p>
-          <h4>Mulheres Africanas e Afrodescendentes</h4>
-          <p>
-            As mulheres africanas e suas descendentes, muitas delas
-            escravizadas, tiveram um papel central na economia doméstica
-            colonial, na agricultura e na formação cultural do Brasil. A
-            resistência ao sistema escravocrata, seja através de fugas, formação
-            de quilombos ou resistência cotidiana, também contou com a
-            participação ativa das mulheres.
-          </p>
-          <h4>Mulheres Europeias</h4>
-          <p>
-            As mulheres europeias, principalmente as de classes mais abastadas,
-            exerciam influência principalmente no âmbito doméstico e social. No
-            entanto, algumas se destacaram em outros campos, como a educação e a
-            assistência social, contribuindo para a formação da sociedade
-            colonial.
+            Apesar do foco tradicional nas figuras masculinas, mulheres também
+            desempenharam papéis importantes na Expansão Marítima, seja como
+            financiadoras, influenciadoras ou participantes indiretas das
+            explorações. Rainhas como Isabel I da Espanha, que apoiou a viagem
+            de Colombo ao Novo Mundo, e Catarina de Bragança, cujo dote incluiu
+            territórios que facilitaram o comércio marítimo português, são
+            exemplos de mulheres cujas ações tiveram impacto significativo nesse
+            período. Além disso, figuras como Inês de Castro e Dona Beatriz,
+            mecenas e apoiadoras das viagens exploratórias, demonstram o papel
+            crucial das mulheres na viabilização e no suporte das jornadas que
+            mudaram o mundo.
           </p>
         </section>
+
         <h2>Mulheres em Destaque:</h2>
         <div className={styles.subTopicsMenu}>
           {subTopicImages.map((image, index) => (
