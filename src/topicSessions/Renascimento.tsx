@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./styles/general.module.css";
-import brasilcoloniaimg from "../assets/imgs/brasilcoloniaimg.jpg";
+import renascimento from "../assets/imgs/renascimentoimg.jpg";
 import catarina from "../assets/imgs/catarina.jpg";
 import anastacia from "../assets/imgs/anastacia.jpg";
 import AnimatedPage from "../components/animations/AnimatedPage";
@@ -33,7 +33,7 @@ function Renascimento() {
       <div>
         <section>
           <h1>O Renascimento</h1>
-          <img src={brasilcoloniaimg} alt="Renascimento.png" />
+          <img src={renascimento} alt="Renascimento.png" />
           <p>
             O Renascimento foi um movimento cultural que marcou a transição da
             Idade Média para a Modernidade, ocorrendo principalmente entre os
