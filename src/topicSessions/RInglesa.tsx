@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./styles/general.module.css";
 import revolucaoinglesaimg from "../assets/imgs/revolucaoinglesaimg.jpg";
-import catarina from "../assets/imgs/catarina.jpg";
-import anastacia from "../assets/imgs/anastacia.jpg";
+import anne from "../assets/imgs/anne.jpg";
+import lucy from "../assets/imgs/lucy.jpg";
 import AnimatedPage from "../components/animations/AnimatedPage";
 
 function RInglesa() {
@@ -11,20 +11,24 @@ function RInglesa() {
 
   React.useEffect(() => {}, [showInfo, showMore]);
   const subTopicImages = [
-    { src: catarina, name: "Catarina Álvares Paraguaçu" },
-    { src: anastacia, name: "Anastácia" },
+    { src: lucy, name: "Lucy Hutchinson" },
+    { src: anne, name: "Lady Anne Fairfax " },
   ];
 
   const informacoes = [
     {
-      name: "Catarina",
-      article:
-        "Paraguaçu foi uma indígena tupinambá que teve um papel notável na história do Brasil colonial. Ela foi uma das primeiras indígenas batizadas no cristianismo no Brasil e se casou com o colonizador português Diogo Álvares Correia, conhecido como Caramuru. Sua história é importante por simbolizar as primeiras relações entre europeus e os povos indígenas brasileiros. Paraguaçu é uma figura emblemática, representando tanto a resistência quanto a assimilação e a intermediação cultural entre os indígenas e os portugueses. Ela viajou para a França com Caramuru e lá foi batizada como Catarina Álvares Paraguaçu. Ao retornarem ao Brasil, contribuíram para a fundação da cidade de Salvador, na Bahia.",
+      name: "Lucy Hutchinson",
+      article: `Lucy Hutchinson é mais conhecida por sua obra "Memoirs of the Life of Colonel Hutchinson", um relato detalhado da vida de seu marido, John Hutchinson, que foi um dos signatários da sentença de morte do rei Carlos I. Através de suas memórias, Lucy oferece uma perspectiva íntima e crítica dos eventos da Revolução Inglesa, proporcionando uma das poucas fontes femininas da época sobre a guerra civil.
+
+Além de sua contribuição literária, Lucy Hutchinson foi uma figura intelectual e religiosa proeminente. Ela defendia as ideias puritanas e participava ativamente dos debates religiosos e filosóficos de seu tempo. Seu trabalho não apenas fornece uma visão valiosa dos eventos e do pensamento político da Revolução Inglesa, mas também destaca o papel das mulheres na sustentação ideológica e moral da causa puritana.
+
+`,
     },
     {
-      name: "Catarina",
-      article:
-        "Embora envolta em lendas e mistérios, a figura de Anastácia é um símbolo de resistência contra a escravidão no Brasil. Descrita como uma mulher africana de extraordinária beleza e força de espírito, Anastácia é frequentemente representada com uma máscara de ferro, um instrumento de tortura usado para silenciá-la. Segundo as histórias, ela foi uma escrava que lutou contra a sua condição, resistindo às opressões e abusos dos senhores de escravos. A história de Anastácia se mistura entre a realidade e a lenda, mas ela é venerada como uma santa popular por muitos brasileiros, especialmente na comunidade afro-brasileira, representando a luta pela liberdade e dignidade.",
+      name: "Lady Anne Fairfax ",
+      article: `Lady Anne Fairfax, esposa de Thomas Fairfax, o comandante-chefe do exército do Parlamento durante a Guerra Civil Inglesa, é outra figura feminina notável do período. Embora menos documentada do que Lucy Hutchinson, Lady Fairfax exerceu sua influência através de seu status e conexões, apoiando as causas do Parlamento e promovendo a agenda puritana.
+
+Ela é particularmente lembrada por sua intervenção audaciosa na Assembleia dos Oficiais em 1647, onde protestou contra o tratamento dado ao rei capturado, demonstrando sua independência de pensamento e sua disposição para intervir em assuntos políticos. Este ato não apenas reflete a agência política das mulheres da época, mas também sublinha a complexidade das lealdades e das ideologias durante a Revolução Inglesa.`,
     },
   ];
 
@@ -35,74 +39,63 @@ function RInglesa() {
           <h1>Revolução Inglesa</h1>
           <img src={revolucaoinglesaimg} alt="BrasilColonia.png" />
           <p>
-            O Brasil Colonial refere-se ao período da história brasileira entre
-            1500, com a chegada dos portugueses, e 1822, quando o Brasil
-            declarou sua independência de Portugal. Este período é marcado por
-            uma série de transformações políticas, econômicas, sociais e
-            culturais, que foram fundamentais para a formação do Brasil
-            contemporâneo.
+            A Revolução Inglesa, ocorrida no século XVII, foi um período de
+            intensas mudanças políticas, sociais e religiosas na Inglaterra.
+            Este período abrange a Guerra Civil Inglesa (1642-1651), a execução
+            do rei Carlos I, o estabelecimento da República sob Oliver Cromwell,
+            e a restauração da monarquia em 1660. Foi um conflito entre as
+            forças do Parlamento, que buscavam maior participação política e
+            limites ao poder real, e os monarquistas, que defendiam o direito
+            divino dos reis.
           </p>
-          <h3>Descobrimento e Colonização</h3>
+          <h3>Guerra Civil e o Commonwealth</h3>
           <p>
-            A chegada de Pedro Álvares Cabral em 1500 marca o início da era
-            colonial brasileira. Inicialmente, o interesse português no Brasil
-            estava centrado na extração do pau-brasil, uma madeira valiosa
-            utilizada na Europa para a produção de tintas. O comércio do
-            pau-brasil era realizado principalmente através do escambo com os
-            povos indígenas.
+            A Guerra Civil Inglesa foi marcada por batalhas sangrentas e
+            divisões profundas dentro da sociedade inglesa. A vitória
+            parlamentar levou à execução de Carlos I em 1649 e à instauração do
+            Commonwealth, uma república governada por Cromwell. Este período
+            também viu a conquista da Irlanda e a repressão na Escócia,
+            consolidando o controle do Parlamento sobre as Ilhas Britânicas.
           </p>
-          <h3>Expansão Territorial e Econômica</h3>
+          <h3>Restauração e Impacto</h3>
           <p>
-            A partir de meados do século XVI, com a introdução da
-            cana-de-açúcar, o Brasil começou a ganhar mais importância para a
-            coroa portuguesa. O cultivo da cana-de-açúcar exigiu uma grande
-            quantidade de mão de obra, o que levou ao início do tráfico
-            transatlântico de escravos da África para o Brasil. As plantações de
-            açúcar, ou engenhos, tornaram-se a espinha dorsal da economia
-            colonial brasileira, juntamente com a mineração de ouro e diamantes
-            que ganhou destaque no século XVIII.
+            A morte de Cromwell em 1658 e o subsequente colapso do Commonwealth
+            levaram à Restauração da monarquia em 1660 com o rei Carlos II. Este
+            período é notável pelo fortalecimento do Parlamento e pela limitação
+            do poder monárquico, estabelecendo precedentes para a futura
+            democracia parlamentar na Inglaterra.
           </p>
-          <h3>Administração Colonial</h3>
+          <h3>Contribuição das Mulheres</h3>
           <p>
-            A administração colonial portuguesa era caracterizada por um sistema
-            de capitanias hereditárias, posteriormente substituído por um
-            governo geral. Este sistema visava à exploração e colonização do
-            território de forma mais eficaz. A sociedade colonial era
-            profundamente estratificada, com uma rígida hierarquia social
-            baseada em raça, nascimento e riqueza.
+            Apesar de serem excluídas formalmente da política, as mulheres
+            desempenharam papéis significativos durante a Revolução Inglesa,
+            utilizando-se de panfletos, petições e participação em grupos
+            religiosos e políticos para influenciar os acontecimentos e defender
+            seus direitos e crenças.
           </p>
-          <h3>Influência Feminina no Período Colonial</h3>
+          <h4>Papel nas Frentes Doméstica e Política</h4>
           <p>
-            As mulheres tiveram um papel significativo, embora muitas vezes
-            subestimado, na história colonial brasileira. Suas contribuições
-            variavam de acordo com a classe social, raça e origem, mas, de forma
-            geral, incluíam o trabalho na agricultura, a participação na
-            economia doméstica e, em alguns casos, o envolvimento em atividades
-            comerciais e artesanais.
+            Mulheres de todas as classes sociais estavam envolvidas na
+            revolução, seja apoiando as tropas com alimentos e cuidados, seja
+            ativamente participando de debates políticos e religiosos. Suas
+            ações muitas vezes desafiaram as normas tradicionais de gênero da
+            época, ampliando suas esferas de influência.
           </p>
-          <h4>Mulheres Indígenas</h4>
+          <h4>Mulheres e Literatura</h4>
           <p>
-            As mulheres indígenas desempenharam um papel crucial na mediação
-            cultural e na miscigenação durante o período inicial da colonização.
-            Elas foram fundamentais na transmissão de conhecimentos sobre
-            técnicas agrícolas locais, medicina tradicional e línguas nativas.
+            A revolução proporcionou um espaço para que as mulheres expressassem
+            suas opiniões e críticas através da escrita. Autoras e panfletárias
+            usaram a pena para discutir questões de igualdade, justiça e
+            direitos das mulheres, contribuindo para o debate público e a
+            formação da opinião.
           </p>
-          <h4>Mulheres Africanas e Afrodescendentes</h4>
+          <h4>Legado Feminino</h4>
           <p>
-            As mulheres africanas e suas descendentes, muitas delas
-            escravizadas, tiveram um papel central na economia doméstica
-            colonial, na agricultura e na formação cultural do Brasil. A
-            resistência ao sistema escravocrata, seja através de fugas, formação
-            de quilombos ou resistência cotidiana, também contou com a
-            participação ativa das mulheres.
-          </p>
-          <h4>Mulheres Europeias</h4>
-          <p>
-            As mulheres europeias, principalmente as de classes mais abastadas,
-            exerciam influência principalmente no âmbito doméstico e social. No
-            entanto, algumas se destacaram em outros campos, como a educação e a
-            assistência social, contribuindo para a formação da sociedade
-            colonial.
+            Embora muitas vezes ignoradas pelos registros históricos, as
+            contribuições das mulheres à Revolução Inglesa foram fundamentais.
+            Elas não apenas apoiaram a causa, mas também lutaram por uma
+            sociedade mais igualitária, deixando um legado de resistência e
+            participação política que inspirou futuras gerações.
           </p>
         </section>
         <h2>Mulheres em Destaque:</h2>

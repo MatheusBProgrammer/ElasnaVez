@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./styles/general.module.css";
 import revolucaofrancesaimg from "../assets/imgs/revolucaofrancesaimg.jpg";
-import catarina from "../assets/imgs/catarina.jpg";
-import anastacia from "../assets/imgs/anastacia.jpg";
+import charlotte from "../assets/imgs/charlotte.png";
+import olympe from "../assets/imgs/olympe.png";
 import AnimatedPage from "../components/animations/AnimatedPage";
 
 function RFrancesa() {
@@ -11,20 +11,22 @@ function RFrancesa() {
 
   React.useEffect(() => {}, [showInfo, showMore]);
   const subTopicImages = [
-    { src: catarina, name: "Catarina Álvares Paraguaçu" },
-    { src: anastacia, name: "Anastácia" },
+    { src: charlotte, name: "Charlotte Corday" },
+    { src: olympe, name: "Olympe de Gouges" },
   ];
 
   const informacoes = [
     {
-      name: "Catarina",
-      article:
-        "Paraguaçu foi uma indígena tupinambá que teve um papel notável na história do Brasil colonial. Ela foi uma das primeiras indígenas batizadas no cristianismo no Brasil e se casou com o colonizador português Diogo Álvares Correia, conhecido como Caramuru. Sua história é importante por simbolizar as primeiras relações entre europeus e os povos indígenas brasileiros. Paraguaçu é uma figura emblemática, representando tanto a resistência quanto a assimilação e a intermediação cultural entre os indígenas e os portugueses. Ela viajou para a França com Caramuru e lá foi batizada como Catarina Álvares Paraguaçu. Ao retornarem ao Brasil, contribuíram para a fundação da cidade de Salvador, na Bahia.",
+      name: "Charlotte",
+      article: `Charlotte Corday é mais conhecida por seu assassinato de Jean-Paul Marat, uma figura proeminente do radicalismo revolucionário, em 1793. Corday era uma simpatizante dos girondinos, um grupo político moderado que foi eventualmente suplantado pelos jacobinos mais radicais. Ela acreditava que a morte de Marat, responsável por incitar a violência e o terror, poderia ajudar a acabar com a fase mais sangrenta da Revolução Francesa e restaurar a paz e a estabilidade na França.
+
+O ato de Corday, embora extremo, destaca o papel ativo que algumas mulheres estavam dispostas a assumir em questões políticas durante a revolução. Após assassinar Marat em seu banho, Corday foi rapidamente presa, julgada e guilhotinada. Ela é frequentemente lembrada como uma figura trágica, cujas ações refletem as tensões e os extremos da Revolução Francesa.`,
     },
     {
-      name: "Catarina",
-      article:
-        "Embora envolta em lendas e mistérios, a figura de Anastácia é um símbolo de resistência contra a escravidão no Brasil. Descrita como uma mulher africana de extraordinária beleza e força de espírito, Anastácia é frequentemente representada com uma máscara de ferro, um instrumento de tortura usado para silenciá-la. Segundo as histórias, ela foi uma escrava que lutou contra a sua condição, resistindo às opressões e abusos dos senhores de escravos. A história de Anastácia se mistura entre a realidade e a lenda, mas ela é venerada como uma santa popular por muitos brasileiros, especialmente na comunidade afro-brasileira, representando a luta pela liberdade e dignidade.",
+      name: "Olympe",
+      article: `Olympe de Gouges foi uma dramaturga, ativista política e feminista francesa cuja obra mais conhecida, a "Declaração dos Direitos da Mulher e da Cidadã" de 1791, desafiou diretamente as noções predominantes de gênero e igualdade da época. Neste documento, ela expandiu os ideais da Revolução Francesa – liberdade, igualdade e fraternidade – para incluir mulheres, argumentando que elas também deveriam ter direitos políticos e sociais iguais aos dos homens. De Gouges foi uma crítica vocal da escravidão e da opressão das mulheres, utilizando sua escrita para advogar por uma sociedade mais justa e igualitária.
+
+Apesar de sua contribuição significativa para os ideais revolucionários, de Gouges enfrentou oposição feroz por suas visões, particularmente por seu apoio à monarquia constitucional e por seus escritos que criticavam o radicalismo revolucionário. Em 1793, ela foi acusada de sedição pela facção radical no poder e guilhotinada, tornando-se uma mártir para os futuros movimentos feministas.`,
     },
   ];
 
@@ -35,74 +37,71 @@ function RFrancesa() {
           <h1>Revolução Francesa</h1>
           <img src={revolucaofrancesaimg} alt="BrasilColonia.png" />
           <p>
-            O Brasil Colonial refere-se ao período da história brasileira entre
-            1500, com a chegada dos portugueses, e 1822, quando o Brasil
-            declarou sua independência de Portugal. Este período é marcado por
-            uma série de transformações políticas, econômicas, sociais e
-            culturais, que foram fundamentais para a formação do Brasil
-            contemporâneo.
+            A Revolução Francesa, um dos eventos mais significativos da história
+            mundial, ocorreu entre 1789 e 1799. Este período revolucionário
+            alterou profundamente o curso da história francesa, derrubando a
+            monarquia, estabelecendo a República Francesa e culminando no
+            reinado de terror sob Robespierre. Foi marcado por uma radical
+            reorganização social e política, impulsionada por ideais de
+            liberdade, igualdade e fraternidade. Suas consequências não se
+            limitaram à França, influenciando as esferas política, social e
+            econômica em todo o mundo.
           </p>
-          <h3>Descobrimento e Colonização</h3>
+          <h3>Causas da Revolução</h3>
           <p>
-            A chegada de Pedro Álvares Cabral em 1500 marca o início da era
-            colonial brasileira. Inicialmente, o interesse português no Brasil
-            estava centrado na extração do pau-brasil, uma madeira valiosa
-            utilizada na Europa para a produção de tintas. O comércio do
-            pau-brasil era realizado principalmente através do escambo com os
-            povos indígenas.
+            As causas da Revolução Francesa foram multifacetadas, incluindo
+            crises econômicas, desigualdades sociais, o descontentamento da
+            classe trabalhadora, e o exemplo inspirador da Revolução Americana.
+            A falência do governo francês e a insistência em manter uma
+            sociedade estamental injusta também contribuíram para o
+            descontentamento geral que levou à revolução.
           </p>
-          <h3>Expansão Territorial e Econômica</h3>
+          <h3>Eventos Principais</h3>
           <p>
-            A partir de meados do século XVI, com a introdução da
-            cana-de-açúcar, o Brasil começou a ganhar mais importância para a
-            coroa portuguesa. O cultivo da cana-de-açúcar exigiu uma grande
-            quantidade de mão de obra, o que levou ao início do tráfico
-            transatlântico de escravos da África para o Brasil. As plantações de
-            açúcar, ou engenhos, tornaram-se a espinha dorsal da economia
-            colonial brasileira, juntamente com a mineração de ouro e diamantes
-            que ganhou destaque no século XVIII.
+            A queda da Bastilha em 14 de julho de 1789 é frequentemente citada
+            como o início da Revolução Francesa. Outros eventos significativos
+            incluem a Declaração dos Direitos do Homem e do Cidadão, a execução
+            de Luís XVI e o período do Terror, que viu milhares de supostos
+            contra-revolucionários guilhotinados.
           </p>
-          <h3>Administração Colonial</h3>
+          <h3>Impacto Global</h3>
           <p>
-            A administração colonial portuguesa era caracterizada por um sistema
-            de capitanias hereditárias, posteriormente substituído por um
-            governo geral. Este sistema visava à exploração e colonização do
-            território de forma mais eficaz. A sociedade colonial era
-            profundamente estratificada, com uma rígida hierarquia social
-            baseada em raça, nascimento e riqueza.
+            A Revolução Francesa teve um impacto profundo além de suas
+            fronteiras, inspirando revoluções em todo o mundo e levando à
+            disseminação de ideais republicanos e democráticos. Seu legado
+            inclui a promoção dos direitos humanos e o questionamento da
+            legitimidade do poder absoluto e da monarquia hereditária.
           </p>
-          <h3>Influência Feminina no Período Colonial</h3>
+          <h3>Contribuição das Mulheres</h3>
           <p>
-            As mulheres tiveram um papel significativo, embora muitas vezes
-            subestimado, na história colonial brasileira. Suas contribuições
-            variavam de acordo com a classe social, raça e origem, mas, de forma
-            geral, incluíam o trabalho na agricultura, a participação na
-            economia doméstica e, em alguns casos, o envolvimento em atividades
-            comerciais e artesanais.
+            As mulheres desempenharam papéis cruciais durante a Revolução
+            Francesa, tanto na linha de frente dos protestos quanto no debate
+            intelectual sobre os direitos das mulheres. A Marcha sobre Versalhes
+            e a participação ativa nas sociedades revolucionárias destacam a
+            importância da ação feminina no processo revolucionário.
           </p>
-          <h4>Mulheres Indígenas</h4>
+          <h4>Mulheres na Política</h4>
           <p>
-            As mulheres indígenas desempenharam um papel crucial na mediação
-            cultural e na miscigenação durante o período inicial da colonização.
-            Elas foram fundamentais na transmissão de conhecimentos sobre
-            técnicas agrícolas locais, medicina tradicional e línguas nativas.
+            As mulheres lutaram por sua voz política, com figuras como Olympe de
+            Gouges, que escreveu a Declaração dos Direitos da Mulher e da
+            Cidadã, desafiando diretamente as noções de que a liberdade e
+            igualdade deveriam ser reservadas apenas aos homens.
           </p>
-          <h4>Mulheres Africanas e Afrodescendentes</h4>
+          <h4>Mulheres e Mobilização Social</h4>
           <p>
-            As mulheres africanas e suas descendentes, muitas delas
-            escravizadas, tiveram um papel central na economia doméstica
-            colonial, na agricultura e na formação cultural do Brasil. A
-            resistência ao sistema escravocrata, seja através de fugas, formação
-            de quilombos ou resistência cotidiana, também contou com a
-            participação ativa das mulheres.
+            Através de clubes, jornais e participação ativa nos protestos e
+            marchas, as mulheres exerceram influência significativa. Elas não
+            apenas lutaram por mudanças sociais e políticas, mas também por seus
+            próprios direitos, marcando o início do movimento feminista na
+            França.
           </p>
-          <h4>Mulheres Europeias</h4>
+          <h4>Legado das Mulheres</h4>
           <p>
-            As mulheres europeias, principalmente as de classes mais abastadas,
-            exerciam influência principalmente no âmbito doméstico e social. No
-            entanto, algumas se destacaram em outros campos, como a educação e a
-            assistência social, contribuindo para a formação da sociedade
-            colonial.
+            Apesar de enfrentarem repressão e exclusão da vida política
+            pós-revolucionária, as mulheres da Revolução Francesa estabeleceram
+            um precedente para futuras gerações na luta por igualdade de gênero
+            e direitos civis, contribuindo significativamente para o legado
+            duradouro da revolução na promoção dos direitos humanos.
           </p>
         </section>
         <h2>Mulheres em Destaque:</h2>

@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./styles/general.module.css";
 import reformaprotestanteimg from "../assets/imgs/reformaprotestanteimg.jpg";
-import catarina from "../assets/imgs/catarina.jpg";
-import anastacia from "../assets/imgs/anastacia.jpg";
+import jeane from "../assets/imgs/jeanne.jpg";
+import vonbora from "../assets/imgs/vonbora.jpg";
 import AnimatedPage from "../components/animations/AnimatedPage";
 
 function RProtestante() {
@@ -11,20 +11,24 @@ function RProtestante() {
 
   React.useEffect(() => {}, [showInfo, showMore]);
   const subTopicImages = [
-    { src: catarina, name: "Catarina Álvares Paraguaçu" },
-    { src: anastacia, name: "Anastácia" },
+    { src: jeane, name: "Jeanne III de Navarra" },
+    { src: vonbora, name: "Catarina de Bora" },
   ];
 
   const informacoes = [
     {
       name: "Catarina",
-      article:
-        "Paraguaçu foi uma indígena tupinambá que teve um papel notável na história do Brasil colonial. Ela foi uma das primeiras indígenas batizadas no cristianismo no Brasil e se casou com o colonizador português Diogo Álvares Correia, conhecido como Caramuru. Sua história é importante por simbolizar as primeiras relações entre europeus e os povos indígenas brasileiros. Paraguaçu é uma figura emblemática, representando tanto a resistência quanto a assimilação e a intermediação cultural entre os indígenas e os portugueses. Ela viajou para a França com Caramuru e lá foi batizada como Catarina Álvares Paraguaçu. Ao retornarem ao Brasil, contribuíram para a fundação da cidade de Salvador, na Bahia.",
+      article: `Katharina von Bora, mais conhecida como a esposa de Martinho Lutero, teve um papel fundamental no estabelecimento do modelo do lar protestante e na promoção de um novo papel para a mulher dentro deste contexto. Antes de se casar com Lutero, Katharina era uma freira que fugiu do convento, movida pelas ideias reformistas. Seu casamento com Lutero em 1525 foi significativo não apenas para a vida pessoal de ambos, mas também serviu como um exemplo poderoso do novo ideal protestante de casamento e vida familiar.
+
+Katharina gerenciava a vasta casa dos Lutero, que se tornou um centro de atividade religiosa, acadêmica e social. Ela era conhecida por sua habilidade em administrar a economia doméstica, hospedar visitantes e estudantes, e apoiar o trabalho de Lutero. Através de suas habilidades de gestão e hospitalidade, Katharina contribuiu significativamente para o bem-estar da comunidade protestante emergente e ajudou a estabelecer o papel da esposa como uma parceira vital na vida religiosa e social.`,
     },
     {
       name: "Catarina",
-      article:
-        "Embora envolta em lendas e mistérios, a figura de Anastácia é um símbolo de resistência contra a escravidão no Brasil. Descrita como uma mulher africana de extraordinária beleza e força de espírito, Anastácia é frequentemente representada com uma máscara de ferro, um instrumento de tortura usado para silenciá-la. Segundo as histórias, ela foi uma escrava que lutou contra a sua condição, resistindo às opressões e abusos dos senhores de escravos. A história de Anastácia se mistura entre a realidade e a lenda, mas ela é venerada como uma santa popular por muitos brasileiros, especialmente na comunidade afro-brasileira, representando a luta pela liberdade e dignidade.",
+      article: `Jeanne d'Albret, rainha de Navarra, foi uma figura chave na Reforma Protestante na França. Como líder política e espiritual, ela usou sua posição para avançar nas causas do protestantismo em um período e lugar onde isso implicava em riscos políticos significativos. Jeanne foi uma das primeiras monarcas a adotar o Calvinismo e trabalhou incansavelmente para instituir a Reforma em seus domínios.
+
+Sua contribuição mais notável foi a sua determinação em promover a Reforma, incluindo a organização de sínodos, a promoção da educação protestante e a reforma das igrejas sob seu controle para alinhá-las com as crenças protestantes. Jeanne também foi fundamental na proteção dos huguenotes (protestantes franceses) durante as Guerras de Religião Francesas, oferecendo-lhes um refúgio seguro e lutando por seus direitos religiosos.
+
+Além de suas realizações políticas e religiosas, Jeanne d'Albret é lembrada por sua coragem e determinação em enfrentar a oposição, muitas vezes em grande risco pessoal. Sua liderança não apenas fortaleceu o protestantismo na França, mas também inspirou futuras gerações de mulheres a assumirem papéis de liderança em suas comunidades e movimentos religiosos.`,
     },
   ];
 
@@ -35,74 +39,75 @@ function RProtestante() {
           <h1>Reforma Protestante</h1>
           <img src={reformaprotestanteimg} alt="BrasilColonia.png" />
           <p>
-            O Brasil Colonial refere-se ao período da história brasileira entre
-            1500, com a chegada dos portugueses, e 1822, quando o Brasil
-            declarou sua independência de Portugal. Este período é marcado por
-            uma série de transformações políticas, econômicas, sociais e
-            culturais, que foram fundamentais para a formação do Brasil
-            contemporâneo.
+            A Reforma Protestante foi um movimento de renovação religiosa que
+            ocorreu no século XVI, iniciado por Martinho Lutero em 1517, com a
+            publicação de suas 95 teses contra as práticas da Igreja Católica.
+            Este movimento se espalhou por toda a Europa, levando à criação de
+            várias denominações cristãs protestantes, como os luteranos,
+            calvinistas e anglicanos, e provocou profundas transformações
+            religiosas, culturais, sociais e políticas.
           </p>
-          <h3>Descobrimento e Colonização</h3>
+          <h3>Origens e Causas</h3>
           <p>
-            A chegada de Pedro Álvares Cabral em 1500 marca o início da era
-            colonial brasileira. Inicialmente, o interesse português no Brasil
-            estava centrado na extração do pau-brasil, uma madeira valiosa
-            utilizada na Europa para a produção de tintas. O comércio do
-            pau-brasil era realizado principalmente através do escambo com os
-            povos indígenas.
+            As origens da Reforma Protestante são multifacetadas, incluindo
+            descontentamento com as práticas corruptas da Igreja Católica, como
+            a venda de indulgências, e um desejo de retorno às escrituras como
+            única fonte de autoridade religiosa. O humanismo renascentista
+            também desempenhou um papel crucial, promovendo valores de
+            individualismo e questionamento da autoridade.
           </p>
-          <h3>Expansão Territorial e Econômica</h3>
+          <h3>Principais Reformadores</h3>
           <p>
-            A partir de meados do século XVI, com a introdução da
-            cana-de-açúcar, o Brasil começou a ganhar mais importância para a
-            coroa portuguesa. O cultivo da cana-de-açúcar exigiu uma grande
-            quantidade de mão de obra, o que levou ao início do tráfico
-            transatlântico de escravos da África para o Brasil. As plantações de
-            açúcar, ou engenhos, tornaram-se a espinha dorsal da economia
-            colonial brasileira, juntamente com a mineração de ouro e diamantes
-            que ganhou destaque no século XVIII.
+            Além de Martinho Lutero, outros reformadores tiveram papéis
+            fundamentais na disseminação das ideias protestantes, como João
+            Calvino, que estabeleceu as bases da teologia reformada, e Henrique
+            VIII, que levou à formação da Igreja Anglicana. Esses líderes
+            divergiram em vários pontos teológicos, mas compartilhavam o
+            objetivo comum de reformar a igreja.
           </p>
-          <h3>Administração Colonial</h3>
+          <h3>Impacto Social e Político</h3>
           <p>
-            A administração colonial portuguesa era caracterizada por um sistema
-            de capitanias hereditárias, posteriormente substituído por um
-            governo geral. Este sistema visava à exploração e colonização do
-            território de forma mais eficaz. A sociedade colonial era
-            profundamente estratificada, com uma rígida hierarquia social
-            baseada em raça, nascimento e riqueza.
+            A Reforma teve um impacto significativo na estrutura social e
+            política da Europa. A quebra da unidade religiosa levou a guerras
+            religiosas, mudanças políticas e o surgimento do estado moderno.
+            Também contribuiu para o desenvolvimento da educação, com a promoção
+            da leitura da Bíblia em línguas vernáculas e a fundação de escolas e
+            universidades.
           </p>
-          <h3>Influência Feminina no Período Colonial</h3>
+          <h3>Contribuição das Mulheres</h3>
           <p>
-            As mulheres tiveram um papel significativo, embora muitas vezes
-            subestimado, na história colonial brasileira. Suas contribuições
-            variavam de acordo com a classe social, raça e origem, mas, de forma
-            geral, incluíam o trabalho na agricultura, a participação na
-            economia doméstica e, em alguns casos, o envolvimento em atividades
-            comerciais e artesanais.
+            As mulheres desempenharam um papel vital na Reforma Protestante,
+            tanto na disseminação das novas ideias religiosas quanto no apoio às
+            comunidades reformadas. Figuras como Katharina von Bora, esposa de
+            Lutero, e Jeanne d'Albret, rainha de Navarra, foram fundamentais
+            para o avanço da reforma, além de contribuírem para a educação e a
+            assistência social dentro das comunidades protestantes.
           </p>
-          <h4>Mulheres Indígenas</h4>
+          <h4>Mulheres na Propagação da Fé</h4>
           <p>
-            As mulheres indígenas desempenharam um papel crucial na mediação
-            cultural e na miscigenação durante o período inicial da colonização.
-            Elas foram fundamentais na transmissão de conhecimentos sobre
-            técnicas agrícolas locais, medicina tradicional e línguas nativas.
+            Mulheres de diferentes classes sociais ajudaram a disseminar as
+            ideias da Reforma, seja através do apoio a pregadores reformistas,
+            da hospedagem de reuniões religiosas em suas casas ou da
+            distribuição de literatura protestante. Sua participação ativa foi
+            crucial para a adesão de muitas comunidades às novas crenças.
           </p>
-          <h4>Mulheres Africanas e Afrodescendentes</h4>
+          <h4>Mulheres na Educação e Literatura</h4>
           <p>
-            As mulheres africanas e suas descendentes, muitas delas
-            escravizadas, tiveram um papel central na economia doméstica
-            colonial, na agricultura e na formação cultural do Brasil. A
-            resistência ao sistema escravocrata, seja através de fugas, formação
-            de quilombos ou resistência cotidiana, também contou com a
-            participação ativa das mulheres.
+            A ênfase protestante na leitura da Bíblia por todos os fiéis levou a
+            um aumento no analfabetismo entre as mulheres. Elas também
+            contribuíram para a literatura protestante, escrevendo obras que
+            defendiam a reforma ou traduzindo textos religiosos para as línguas
+            vernáculas, promovendo assim a educação e a disseminação das crenças
+            protestantes.
           </p>
-          <h4>Mulheres Europeias</h4>
+          <h4>Influência das Mulheres na Reforma</h4>
           <p>
-            As mulheres europeias, principalmente as de classes mais abastadas,
-            exerciam influência principalmente no âmbito doméstico e social. No
-            entanto, algumas se destacaram em outros campos, como a educação e a
-            assistência social, contribuindo para a formação da sociedade
-            colonial.
+            As mulheres não só apoiaram a Reforma através de seus papéis
+            tradicionais, mas também desafiaram as normas de gênero da época,
+            assumindo lideranças em comunidades religiosas e participando
+            ativamente do debate teológico. Sua influência estendeu-se por todos
+            os aspectos da vida social e religiosa, contribuindo
+            significativamente para o legado e a expansão do protestantismo.
           </p>
         </section>
         <h2>Mulheres em Destaque:</h2>

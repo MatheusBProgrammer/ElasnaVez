@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./styles/general.module.css";
 import revolucaoindustrialimg from "../assets/imgs/revolucaoindustrialimg.jpg";
-import catarina from "../assets/imgs/catarina.jpg";
-import anastacia from "../assets/imgs/anastacia.jpg";
+import mary from "../assets/imgs/mary.jpg";
+import sarah from "../assets/imgs/sarah.jpg";
 import AnimatedPage from "../components/animations/AnimatedPage";
 
 function RIndustrial() {
@@ -11,20 +11,22 @@ function RIndustrial() {
 
   React.useEffect(() => {}, [showInfo, showMore]);
   const subTopicImages = [
-    { src: catarina, name: "Catarina Álvares Paraguaçu" },
-    { src: anastacia, name: "Anastácia" },
+    { src: mary, name: "Mary Wollstonecraft" },
+    { src: sarah, name: "Sarah Guppy " },
   ];
 
   const informacoes = [
     {
-      name: "Catarina",
-      article:
-        "Paraguaçu foi uma indígena tupinambá que teve um papel notável na história do Brasil colonial. Ela foi uma das primeiras indígenas batizadas no cristianismo no Brasil e se casou com o colonizador português Diogo Álvares Correia, conhecido como Caramuru. Sua história é importante por simbolizar as primeiras relações entre europeus e os povos indígenas brasileiros. Paraguaçu é uma figura emblemática, representando tanto a resistência quanto a assimilação e a intermediação cultural entre os indígenas e os portugueses. Ela viajou para a França com Caramuru e lá foi batizada como Catarina Álvares Paraguaçu. Ao retornarem ao Brasil, contribuíram para a fundação da cidade de Salvador, na Bahia.",
+      name: "Mary Wollstonecraft",
+      article: `Mary Wollstonecraft é mais conhecida por seu trabalho pioneiro em defesa dos direitos das mulheres, "A Vindication of the Rights of Woman" (1792), que ela escreveu em resposta aos rápidos desenvolvimentos sociais e econômicos da Revolução Industrial e da Revolução Francesa. Wollstonecraft argumentava que as mulheres não eram naturalmente inferiores aos homens, mas pareciam ser apenas por falta de educação. Ela defendia a igualdade de educação para mulheres e homens, acreditando que isso era essencial para a sociedade se desenvolver plenamente e para as mulheres participarem ativamente da economia emergente.
+
+Wollstonecraft não apenas abordou questões de gênero, mas também criticou as estruturas de classe da época, argumentando que a educação deveria ser acessível a todas as camadas da sociedade. Seu trabalho teve um profundo impacto no movimento pelos direitos das mulheres e na luta por reformas educacionais, ecoando até hoje.`,
     },
     {
-      name: "Catarina",
-      article:
-        "Embora envolta em lendas e mistérios, a figura de Anastácia é um símbolo de resistência contra a escravidão no Brasil. Descrita como uma mulher africana de extraordinária beleza e força de espírito, Anastácia é frequentemente representada com uma máscara de ferro, um instrumento de tortura usado para silenciá-la. Segundo as histórias, ela foi uma escrava que lutou contra a sua condição, resistindo às opressões e abusos dos senhores de escravos. A história de Anastácia se mistura entre a realidade e a lenda, mas ela é venerada como uma santa popular por muitos brasileiros, especialmente na comunidade afro-brasileira, representando a luta pela liberdade e dignidade.",
+      name: "Sarah Guppy",
+      article: `Sarah Guppy foi uma inventora inglesa cujas inovações tiveram um impacto significativo durante a Revolução Industrial. Embora muitas vezes esquecida pela história, suas contribuições para a engenharia e a infraestrutura foram fundamentais. Guppy detém a distinção de ser uma das primeiras mulheres na Inglaterra a obter uma patente, em 1811, por um método de construir e melhorar pontes. Este método foi crucial para a construção de pontes mais seguras e eficientes, facilitando o transporte de mercadorias e pessoas, um componente vital para o avanço da Revolução Industrial.
+
+Além disso, Guppy inventou um sistema para proteger navios de madeira contra o ataque de vermes marinhos, bem como contribuições para a agricultura, incluindo um dispositivo para economizar sementes ao plantar milho. Suas invenções refletem não apenas seu gênio técnico, mas também seu compromisso em responder às necessidades emergentes de uma sociedade em rápida transformação.`,
     },
   ];
 
@@ -35,74 +37,73 @@ function RIndustrial() {
           <h1>Revolução Industrial</h1>
           <img src={revolucaoindustrialimg} alt="BrasilColonia.png" />
           <p>
-            O Brasil Colonial refere-se ao período da história brasileira entre
-            1500, com a chegada dos portugueses, e 1822, quando o Brasil
-            declarou sua independência de Portugal. Este período é marcado por
-            uma série de transformações políticas, econômicas, sociais e
-            culturais, que foram fundamentais para a formação do Brasil
-            contemporâneo.
+            A Revolução Industrial, iniciada no século XVIII na Grã-Bretanha,
+            foi uma transformação profunda dos processos de produção. Este
+            período marcou a transição de métodos artesanais para a produção
+            mecanizada, influenciando profundamente as estruturas sociais,
+            econômicas e culturais em nível global. As inovações tecnológicas,
+            como a máquina a vapor e o tear mecânico, impulsionaram a eficiência
+            da produção, o desenvolvimento de fábricas e a urbanização,
+            redefinindo o trabalho e a sociedade.
           </p>
-          <h3>Descobrimento e Colonização</h3>
+          <h3>Inovações Tecnológicas</h3>
           <p>
-            A chegada de Pedro Álvares Cabral em 1500 marca o início da era
-            colonial brasileira. Inicialmente, o interesse português no Brasil
-            estava centrado na extração do pau-brasil, uma madeira valiosa
-            utilizada na Europa para a produção de tintas. O comércio do
-            pau-brasil era realizado principalmente através do escambo com os
-            povos indígenas.
+            As inovações foram o cerne da Revolução Industrial, destacando-se a
+            invenção da máquina a vapor por James Watt, o desenvolvimento do
+            tear mecânico e a introdução da siderurgia moderna. Essas
+            tecnologias não apenas aumentaram a produção industrial mas também
+            impulsionaram o transporte, com a construção de ferrovias e o
+            aprimoramento da navegação a vapor.
           </p>
-          <h3>Expansão Territorial e Econômica</h3>
+          <h3>Impacto Social</h3>
           <p>
-            A partir de meados do século XVI, com a introdução da
-            cana-de-açúcar, o Brasil começou a ganhar mais importância para a
-            coroa portuguesa. O cultivo da cana-de-açúcar exigiu uma grande
-            quantidade de mão de obra, o que levou ao início do tráfico
-            transatlântico de escravos da África para o Brasil. As plantações de
-            açúcar, ou engenhos, tornaram-se a espinha dorsal da economia
-            colonial brasileira, juntamente com a mineração de ouro e diamantes
-            que ganhou destaque no século XVIII.
+            O impacto social da Revolução Industrial foi imenso, alterando a
+            composição da sociedade e as relações de trabalho. A urbanização
+            acelerada, o surgimento da classe trabalhadora e as mudanças nas
+            condições de trabalho levantaram questões sobre direitos
+            trabalhistas, dando origem a movimentos operários e sindicais.
           </p>
-          <h3>Administração Colonial</h3>
+          <h3>Mudanças Econômicas</h3>
           <p>
-            A administração colonial portuguesa era caracterizada por um sistema
-            de capitanias hereditárias, posteriormente substituído por um
-            governo geral. Este sistema visava à exploração e colonização do
-            território de forma mais eficaz. A sociedade colonial era
-            profundamente estratificada, com uma rígida hierarquia social
-            baseada em raça, nascimento e riqueza.
+            Economicamente, a Revolução Industrial impulsionou o capitalismo
+            industrial, caracterizado pela concentração da produção, o
+            crescimento do comércio internacional e o surgimento de novos
+            mercados. A expansão das indústrias e a necessidade de
+            matérias-primas também estimularam o imperialismo e a colonização.
           </p>
-          <h3>Influência Feminina no Período Colonial</h3>
+          <h3>Contribuição das Mulheres</h3>
           <p>
-            As mulheres tiveram um papel significativo, embora muitas vezes
-            subestimado, na história colonial brasileira. Suas contribuições
-            variavam de acordo com a classe social, raça e origem, mas, de forma
-            geral, incluíam o trabalho na agricultura, a participação na
-            economia doméstica e, em alguns casos, o envolvimento em atividades
-            comerciais e artesanais.
+            As mulheres desempenharam um papel crucial durante a Revolução
+            Industrial, especialmente como força de trabalho nas fábricas. Suas
+            contribuições, muitas vezes em condições de trabalho precárias e por
+            salários inferiores aos dos homens, foram fundamentais para o
+            desenvolvimento industrial. A participação feminina também estimulou
+            debates sobre direitos trabalhistas e igualdade de gênero.
           </p>
-          <h4>Mulheres Indígenas</h4>
+          <h4>Mulheres no Trabalho Fabril</h4>
           <p>
-            As mulheres indígenas desempenharam um papel crucial na mediação
-            cultural e na miscigenação durante o período inicial da colonização.
-            Elas foram fundamentais na transmissão de conhecimentos sobre
-            técnicas agrícolas locais, medicina tradicional e línguas nativas.
+            A presença feminina nas fábricas era significativa, principalmente
+            em setores como o têxtil, onde suas habilidades eram altamente
+            valorizadas. Apesar das duras condições de trabalho, as mulheres
+            demonstraram resiliência e capacidade de adaptação, contribuindo de
+            forma indispensável para a economia industrial.
           </p>
-          <h4>Mulheres Africanas e Afrodescendentes</h4>
+          <h4>Mulheres e Movimentos Sociais</h4>
           <p>
-            As mulheres africanas e suas descendentes, muitas delas
-            escravizadas, tiveram um papel central na economia doméstica
-            colonial, na agricultura e na formação cultural do Brasil. A
-            resistência ao sistema escravocrata, seja através de fugas, formação
-            de quilombos ou resistência cotidiana, também contou com a
-            participação ativa das mulheres.
+            As mulheres não apenas participavam da força de trabalho industrial,
+            mas também se envolviam ativamente em movimentos sociais e
+            sindicais, lutando por melhores condições de trabalho, salários
+            justos e direitos igualitários. Sua participação nesses movimentos
+            foi essencial para trazer à tona questões de justiça social e
+            trabalhista.
           </p>
-          <h4>Mulheres Europeias</h4>
+          <h4>Impacto na Família e Sociedade</h4>
           <p>
-            As mulheres europeias, principalmente as de classes mais abastadas,
-            exerciam influência principalmente no âmbito doméstico e social. No
-            entanto, algumas se destacaram em outros campos, como a educação e a
-            assistência social, contribuindo para a formação da sociedade
-            colonial.
+            A Revolução Industrial também afetou a estrutura familiar e as
+            relações sociais. Com as mulheres trabalhando fora, houve mudanças
+            nos papéis tradicionais de gênero, desafiando as normas sociais e
+            contribuindo para as discussões sobre direitos das mulheres e
+            igualdade de gênero.
           </p>
         </section>
         <h2>Mulheres em Destaque:</h2>
