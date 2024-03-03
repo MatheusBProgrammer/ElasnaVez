@@ -19,6 +19,7 @@ import RProtestante from "../topicSessions/RProtestante";
 import RIndustrial from "../topicSessions/RIndustrial";
 import RFrancesa from "../topicSessions/RFrancesa";
 import RInglesa from "../topicSessions/RInglesa";
+import { BsHourglassSplit } from "react-icons/bs";
 
 function TimeLine() {
   const [hovered, setHovered] = React.useState<number | null>(null);
@@ -58,13 +59,17 @@ function TimeLine() {
             </div>
           ))}
         </div>
-        {SelectedPage && (
+
+        {SelectedPage ? (
           <AnimatedPage>
-            {" "}
             <SelectedPage />
           </AnimatedPage>
+        ) : (
+          <div className={styles.holder}>
+            <BsHourglassSplit className={styles.swingAnimation} />
+            <p>Selecione um período histórico</p>
+          </div>
         )}
-        {/* Renderiza o componente selecionado */}
       </div>
     </AnimatedPage>
   );

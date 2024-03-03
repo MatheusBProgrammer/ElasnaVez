@@ -63,3 +63,22 @@
     border-radius: 50px;
   }
 }
+.holder {
+  text-align: center;
+  font-size: 5em;
+}
+@keyframes swing {
+  0% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+
+.swingAnimation {
+  animation: swing 2s infinite ease-in-out;
+}
