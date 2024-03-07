@@ -36,20 +36,15 @@ function Navbar() {
         </animated.div>
       )}
       <Link to="/" className={styles.navbarItem1}>
-        Home
+        Apresentação
       </Link>
       <Link to="/timeline" className={styles.navbarItem2}>
-        Linha temporal
+        Mulheres na História
       </Link>
       <Link to="/" className={styles.navbarItem3}>
         Seção 2
       </Link>
-      <Link to="/" className={styles.navbarItem4}>
-        Seção 3
-      </Link>
-      <Link to="/" className={styles.navbarItem5}>
-        Seção 4
-      </Link>
+
       <Link to="/sobre">Sobre</Link>
     </div>
   );

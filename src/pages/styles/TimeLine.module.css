@@ -67,6 +67,9 @@
   text-align: center;
   font-size: 5em;
 }
+.holder p {
+  font-size: 0.5em;
+}
 @keyframes swing {
   0% {
     transform: rotate(-5deg);

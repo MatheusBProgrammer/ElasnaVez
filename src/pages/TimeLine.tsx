@@ -67,7 +67,15 @@ function TimeLine() {
         ) : (
           <div className={styles.holder}>
             <BsHourglassSplit className={styles.swingAnimation} />
-            <p>Selecione um período histórico</p>
+            <p>
+              <strong>Navegue pelo nosso menu</strong> para explorar os períodos
+              históricos e as figuras femininas que deixaram sua marca indelével
+              em cada era. De cientistas e educadoras no Brasil Colonial a
+              ativistas políticas na Revolução Francesa, de pioneiras na ciência
+              e tecnologia no século XX a líderes influentes no Brasil Império,
+              nossa plataforma é um convite para viajar no tempo e reconhecer as
+              mulheres que moldaram a história.
+            </p>
           </div>
         )}
       </div>
