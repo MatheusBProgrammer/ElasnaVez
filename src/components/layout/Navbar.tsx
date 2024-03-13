@@ -41,8 +41,8 @@ function Navbar() {
       <Link to="/timeline" className={styles.navbarItem2}>
         Mulheres na História
       </Link>
-      <Link to="/" className={styles.navbarItem3}>
-        Seção 2
+      <Link to="/quizpage" className={styles.navbarItem3}>
+        Quiz
       </Link>
 
       <Link to="/sobre">Sobre</Link>

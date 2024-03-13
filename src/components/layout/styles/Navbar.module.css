@@ -43,7 +43,7 @@
 }
 .submenu a {
   background-color: #e75a7a;
-  margin: 0.5px;
+  margin: 0.55px;
   color: #ffdbd7;
 }
 @media (max-width: 1180px) {
@@ -51,10 +51,15 @@
     transition: 0.1s;
     width: 100%;
   }
+  .container .navbarItem3{
+    display: none;
+  }
   .submenu a {
     justify-content: center;
     display: flex;
     align-items: center;
     font-size: 2em;
   }
+
 }
+

@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home.tsx";
 import Sobre from "./pages/Sobre.tsx";
 import TimeLine from "./pages/TimeLine.tsx";
+import QuizPage from "./pages/QuizPage.tsx";
 
 const router = createBrowserRouter([
   {
@@ -17,12 +18,16 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/sobre",
-        element: <Sobre />,
-      },
-      {
         path: "timeline",
         element: <TimeLine />,
+      },
+      {
+        path: "quizpage",
+        element: <QuizPage />,
+      },
+      {
+        path: "/sobre",
+        element: <Sobre />,
       },
     ],
   },
