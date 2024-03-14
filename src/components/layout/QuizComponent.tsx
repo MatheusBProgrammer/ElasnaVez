@@ -7,23 +7,53 @@ const QuizComponent: React.FC = () => {
   const [currentQuestion, setCurrentQuestion] = useState<number>(0);
   const [score, setScore] = useState<number>(0);
   const [showScore, setShowScore] = useState<boolean>(false);
+  const [headerText, setHeaderText] = useState<string>("Quiz");
+
+  const messagesStatus = {
+    sucessMessages: [
+      "Eita, você é bom mesmo! 🌟",
+      "Acertou em cheio! 💫",
+      "Não é que você sabe mesmo? 😎",
+      "Você está arrasando! 🔥",
+      "Isso aí! Na mosca! 🎯",
+    ],
+    failureMessages: [
+      "Ops, quase lá! Tente outra vez. 🙈",
+      "Errou, mas não desanime! 🌈",
+      "Não foi dessa vez... Mas siga em frente! 💪",
+      "Ahhh, quase acertou! Mantenha o ânimo! 🚀",
+      "Errou, mas aprendemos com os erros, né? 📚",
+    ],
+  };
 
   const handleAnswerButtonClick = (isCorrect: boolean) => {
+    let message;
     if (isCorrect) {
       setScore(score + 1);
+      message =
+        messagesStatus.sucessMessages[
+          Math.floor(Math.random() * messagesStatus.sucessMessages.length)
+        ];
+    } else {
+      message =
+        messagesStatus.failureMessages[
+          Math.floor(Math.random() * messagesStatus.failureMessages.length)
+        ];
     }
 
+    setHeaderText(message);
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion < Questions.length) {
       setCurrentQuestion(nextQuestion);
     } else {
       setShowScore(true);
+      setHeaderText("Acabou!");
     }
   };
 
   return (
     <div className={styles.page}>
-      <div className={styles.header}>Quiz</div>
+      <div className={styles.header}>{headerText}</div>
 
       <div className={styles.quiz}>
         {showScore ? (
