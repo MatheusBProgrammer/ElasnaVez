@@ -27,12 +27,13 @@ function TimeLine() {
     { src: img1, name: "Brasil Colônia", page: BrasilColonia }, // Aqui deve ser passado o componente diretamente
     { src: img3, name: "Brasil Império", page: BrasilImperio },
     { src: img4, name: "Período Regencial", page: Regencial },
-    { src: img5, name: "Renascimento", page: Renascimento },
-    { src: img6, name: "Expansão Marítima", page: EMaritima },
-    { src: img7, name: "Reforma Protestente", page: RProtestante },
-    { src: img8, name: "Revolução Industrial", page: RIndustrial },
-    { src: img9, name: "Revolução Francesa", page: RFrancesa },
-    { src: img10, name: "Revolução Inglesa", page: RInglesa },
+
+    //{ src: img5, name: "Renascimento", page: Renascimento },
+    //{ src: img6, name: "Expansão Marítima", page: EMaritima },
+    //{ src: img7, name: "Reforma Protestente", page: RProtestante },
+    //{ src: img8, name: "Revolução Industrial", page: RIndustrial },
+    //{ src: img9, name: "Revolução Francesa", page: RFrancesa },
+    //{ src: img10, name: "Revolução Inglesa", page: RInglesa },
   ];
 
   const [showContent, setShowContent] = React.useState<number | null>(null);
