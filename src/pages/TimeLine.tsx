@@ -4,21 +4,11 @@ import AnimatedPage from "../components/animations/AnimatedPage";
 import img1 from "../assets/imgs/img1.jpg";
 import img3 from "../assets/imgs/img3.jpg";
 import img4 from "../assets/imgs/img4.jpg";
-import img5 from "../assets/imgs/img5.jpg";
-import img6 from "../assets/imgs/img6.jpg";
-import img7 from "../assets/imgs/img7.jpg";
-import img8 from "../assets/imgs/img8.jpg";
-import img9 from "../assets/imgs/img9.jpg";
-import img10 from "../assets/imgs/img10.jpg";
+
 import BrasilColonia from "../topicSessions/BrasilColonia";
 import BrasilImperio from "../topicSessions/BrasilImperio";
 import Regencial from "../topicSessions/Regencia";
-import Renascimento from "../topicSessions/Renascimento";
-import EMaritima from "../topicSessions/EMaritima";
-import RProtestante from "../topicSessions/RProtestante";
-import RIndustrial from "../topicSessions/RIndustrial";
-import RFrancesa from "../topicSessions/RFrancesa";
-import RInglesa from "../topicSessions/RInglesa";
+
 import { BsHourglassSplit } from "react-icons/bs";
 
 function TimeLine() {
