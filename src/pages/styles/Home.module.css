@@ -14,7 +14,8 @@
   justify-content: center;
   height: 70vh;
 }
-.container div h2 {
+.contentLeft h2,
+.contentRight h2 {
   padding-bottom: 1em;
 }
 .contentLeft,
@@ -24,21 +25,21 @@
   justify-content: start;
   align-items: center;
   flex-direction: column;
-  border-radius: 15px;
+  border-radius: 7px;
   background-color: white;
   padding: 1em;
   margin: 0.5em;
   min-width: 25%;
   min-height: 30%;
   position: relative;
-  box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.61);
   overflow: auto;
+  text-align: center;
 }
 .contentLeft,
 .contentRight {
   margin-left: 3em;
   margin-right: 3em;
-  top: 4em;
+  top: 20em;
   padding-right: 2em;
   padding-left: 2em;
 }
@@ -63,6 +64,12 @@
   width: 8%;
   height: 50%;
   background-color: rgb(255, 255, 255);
+}
+.contentCenter h2 {
+  font-size: 3em;
+}
+.contentCenter {
+  font-size: 1.5em;
 }
 
 @media (max-width: 900px) {

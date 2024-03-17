@@ -32,71 +32,91 @@ function Regencial() {
         <section>
           <h1>Brasil Regencial</h1>
           <img src={brasilregencial} alt="BrasilRegencial.png" />
+
           <p>
-            O Período Regencial é uma fase da história do Brasil que ocorreu
-            entre 1831 e 1840, marcando a transição entre a abdicação de Dom
-            Pedro I e a menoridade de Dom Pedro II. Este período foi
-            caracterizado por intensas lutas políticas, sociais e regionais,
-            refletindo a complexidade da formação do Estado brasileiro e sua
-            identidade nacional.
+            O Período Regencial, uma etapa crucial entre 1831 e 1840 na história
+            do Brasil, serviu como uma ponte entre a abdicação de Dom Pedro I e
+            a menoridade de Dom Pedro II. Este intervalo foi marcado por uma
+            série de desafios políticos, sociais e regionais, destacando-se como
+            um momento de definição para a identidade nacional e a estrutura do
+            Estado brasileiro. Durante este tempo, a contribuição das mulheres
+            na sociedade foi significativa, embora frequentemente subestimada ou
+            ignorada pela historiografia tradicional.
           </p>
-          <h3>Regências e Conflitos Internos</h3>
           <p>
-            Após a abdicação de Dom Pedro I, o Brasil foi governado por
-            regências provisórias e permanentes, enfrentando grandes desafios
-            para manter a unidade nacional. As regências foram períodos de
-            instabilidade e de confrontos, como a Cabanagem, a Sabinada, a
-            Balaiada, e a Revolução Farroupilha, refletindo as tensões e os
-            conflitos internos do país.
+            A revisão deste período sob uma nova ótica busca realçar o papel
+            ativo das mulheres na formação do Brasil Regencial. Longe de serem
+            meras figuras passivas, elas estiveram no centro de movimentos
+            sociais e políticos, contribuíram para a economia e exerceram
+            influência cultural considerável. As mulheres indígenas, por
+            exemplo, desempenharam papéis fundamentais na manutenção da
+            resistência cultural e na luta contra a invasão de suas terras,
+            enquanto as mulheres afro-brasileiras e africanas, mesmo sob o jugo
+            da escravidão, lutaram pela preservação de suas identidades e contra
+            a opressão.
           </p>
-          <h3>Reformas Políticas e Sociais</h3>
           <p>
-            Durante o Período Regencial, foram implementadas importantes
-            reformas políticas e sociais visando a modernização e a
-            estabilização do país. O Ato Adicional de 1834 foi uma dessas
-            reformas, alterando a Constituição de 1824 e concedendo maior
-            autonomia às províncias, além de criar o Município Neutro, futuro
-            Rio de Janeiro, como capital do Império.
+            Mulheres de origem europeia e brasileiras das classes mais abastadas
+            não se limitaram ao âmbito doméstico; muitas avançaram para esferas
+            públicas, envolvendo-se em educação, ativismo social e filantropia.
+            Essas mulheres foram pioneiras na promoção de novas práticas
+            educacionais e na introdução de iniciativas sociais que contribuíram
+            para moldar o futuro do Brasil.
           </p>
-          <h3>Guarda Nacional e o Poder Moderador</h3>
           <p>
-            A criação da Guarda Nacional em 1831 e a consolidação do poder
-            moderador foram medidas importantes para o fortalecimento da
-            autoridade central, buscando equilibrar o poder entre as diferentes
-            facções políticas e sociais. Estas iniciativas, no entanto, também
-            geraram novas tensões e disputas pelo controle e influência no
-            governo regencial.
+            Contudo, a presença e as contribuições dessas mulheres raramente são
+            reconhecidas nos registros oficiais ou nos materiais didáticos,
+            perpetuando uma visão incompleta daquele período crítico. Este
+            desequilíbrio na narrativa histórica não apenas obscurece a
+            compreensão da era Regencial, mas também diminui a relevância da
+            participação feminina na formação da nação.
           </p>
-          <h3>Economia e Sociedade no Período Regencial</h3>
           <p>
-            A economia brasileira durante o Período Regencial continuou focada
-            na agricultura de exportação, mas enfrentou dificuldades devido às
-            instabilidades políticas e aos conflitos internos. A sociedade era
-            marcada por profundas desigualdades, com a persistência da
-            escravidão e a luta por direitos básicos e por melhorias nas
-            condições de vida da população mais pobre.
+            Assim, o objetivo desta seção é iluminar as contribuições dessas
+            mulheres frequentemente esquecidas, incentivando uma análise crítica
+            das metodologias pedagógicas e da produção de conteúdo didático, em
+            prol de uma representação mais justa e inclusiva do Período
+            Regencial na história do Brasil.
           </p>
-          <h3>Legado do Período Regencial</h3>
+          <h3>Impacto na Educação e Reformas Sociais</h3>
           <p>
-            O legado do Período Regencial foi fundamental para o desenvolvimento
-            político, social e econômico do Brasil. As reformas implementadas,
-            as experiências de autonomia provincial e os desafios enfrentados
-            durante esse período contribuíram para moldar o caráter do Estado
-            brasileiro e preparar o caminho para a segunda metade do século XIX,
-            especialmente com a ascensão ao trono de Dom Pedro II e o início de
-            seu longo reinado.
+            A influência das mulheres no Período Regencial ultrapassou as
+            barreiras domésticas, marcando presença também no âmbito da educação
+            e da assistência social. Apesar das restrições impostas pela
+            sociedade da época, muitas se destacaram por sua atuação decisiva na
+            fundação de instituições educativas e de caridade. Essas ações não
+            apenas desafiaram as normas de gênero vigentes, mas também
+            representaram passos iniciais importantes na luta contra as
+            desigualdades sociais arraigadas naquele contexto histórico.
           </p>
-          <h4>Figuras femininas de destáque no Período Regencial</h4>
           <p>
-            O Período Regencial no Brasil, marcado por intensas disputas
-            políticas e sociais entre 1831 e 1840, também foi palco do
-            surgimento e atuação de diversas figuras femininas notáveis, embora
-            suas histórias muitas vezes permaneçam menos documentadas ou
-            valorizadas pela historiografia tradicional. Estas mulheres
-            desempenharam papéis cruciais não apenas no contexto doméstico ou
-            como inspiração para movimentos e decisões políticas, mas também em
-            esferas de influência direta, seja na política, em movimentos
-            sociais, culturais ou nas revoltas que marcaram o período.
+            Algumas dessas mulheres notáveis empenharam-se na criação de escolas
+            que ofereciam tanto a educação básica quanto a profissionalizante,
+            acessíveis não somente a meninas da elite, mas também a crianças
+            indígenas e afrodescendentes, fomentando a inclusão e a igualdade
+            social. Estes espaços educacionais constituíram as primeiras
+            instâncias de valorização da educação feminina no Brasil, promovendo
+            o empoderamento feminino e estimulando mudanças sociais profundas.
+          </p>
+          <p>
+            Além disso, o envolvimento das mulheres em iniciativas
+            filantrópicas, como a criação de hospitais e orfanatos, preencheu
+            lacunas críticas deixadas pela ausência de uma rede de proteção
+            social estatal efetiva. Essas atividades evidenciaram a importância
+            dos valores de solidariedade e compaixão, reforçando a coesão social
+            durante um período de grandes desafios.
+          </p>
+          <p>
+            A integração das histórias dessas mulheres no ensino do Período
+            Regencial representa uma oportunidade valiosa para reequilibrar a
+            narrativa histórica, reconhecendo suas contribuições essenciais para
+            as esferas sociais, econômicas e culturais. A revisão dos currículos
+            escolares para incluir esses relatos não é apenas um ato de justiça
+            histórica, mas também uma estratégia pedagógica vital para a
+            formação de cidadãos mais conscientes, críticos e apreciativos da
+            diversidade e complexidade que compõem a história brasileira. Este
+            esforço de inclusão promove um ensino de história mais completo,
+            enriquecedor e autêntico.
           </p>
         </section>
 
@@ -129,7 +149,11 @@ function Regencial() {
                 </div>
               )}
               {showInfo === index && (
-                <AnimatedPage>{informacoes[index].article}</AnimatedPage>
+                <AnimatedPage>
+                  <div className={styles.article}>
+                    {informacoes[index].article}
+                  </div>
+                </AnimatedPage>
               )}
             </div>
           ))}

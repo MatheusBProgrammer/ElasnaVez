@@ -1,17 +1,22 @@
 .generalInfo {
   position: relative;
   margin: 1em;
+  width: 80%;
+}
+.generalInfo h2,
+h3 {
+  font-size: 2em;
 }
 .generalInfo p {
-  padding: 1em;
-  font-size: 1em;
+  border-radius: 7px;
+  padding: 0.5em;
+  font-size: 1.5em;
   text-align: start;
 }
 .generalInfo img {
-  box-shadow: 1px 1px 1px 4px 4px black;
-  width: 100%;
+  width: 30%;
   height: auto;
-  border-radius: 15px;
+  border-radius: 7px;
   margin: 0.5em;
 }
 .subTopicsMenu {
@@ -58,9 +63,14 @@
   }
   .subTopicsMenu {
     flex-direction: column;
+    text-align: start;
+  }
+  .topicItem {
+    padding: 0;
   }
   .topicItem img {
-    height: 100%;
-    width: 100%;
+  }
+  .article {
+    padding: 0;
   }
 }
