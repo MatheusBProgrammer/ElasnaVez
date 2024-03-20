@@ -38,14 +38,16 @@ function Navbar() {
       <Link to="/" className={styles.navbarItem1}>
         Apresentação
       </Link>
-      <Link to="/timeline" className={styles.navbarItem2}>
+      <Link to="/timeline" className={styles.timeLine}>
         Mulheres na História
       </Link>
-      <Link to="/quizpage" className={styles.navbarItem3}>
+      <Link to="/quizpage" className={styles.quizPage}>
         Quiz
       </Link>
 
-      <Link to="/sobre">Sobre</Link>
+      <Link to="/sobre" className={styles.sobre}>
+        Sobre
+      </Link>
     </div>
   );
 }

@@ -4,11 +4,9 @@ import AnimatedPage from "../components/animations/AnimatedPage";
 import img1 from "../assets/imgs/img1.jpg";
 import img3 from "../assets/imgs/img3.jpg";
 import img4 from "../assets/imgs/img4.jpg";
-
 import BrasilColonia from "../topicSessions/BrasilColonia";
 import BrasilImperio from "../topicSessions/BrasilImperio";
 import Regencial from "../topicSessions/Regencia";
-
 import { BsHourglassSplit } from "react-icons/bs";
 
 function TimeLine() {
@@ -17,22 +15,17 @@ function TimeLine() {
     { src: img1, name: "Brasil Colônia", page: BrasilColonia }, // Aqui deve ser passado o componente diretamente
     { src: img3, name: "Brasil Império", page: BrasilImperio },
     { src: img4, name: "Período Regencial", page: Regencial },
-
-    //{ src: img5, name: "Renascimento", page: Renascimento },
-    //{ src: img6, name: "Expansão Marítima", page: EMaritima },
-    //{ src: img7, name: "Reforma Protestente", page: RProtestante },
-    //{ src: img8, name: "Revolução Industrial", page: RIndustrial },
-    //{ src: img9, name: "Revolução Francesa", page: RFrancesa },
-    //{ src: img10, name: "Revolução Inglesa", page: RInglesa },
   ];
 
   const [showContent, setShowContent] = React.useState<number | null>(null);
   const SelectedPage = showContent !== null ? menu[showContent].page : null;
+  const menuClass =
+    showContent !== null ? `${styles.menu} ${styles.menuFixed}` : styles.menu;
 
   return (
     <AnimatedPage>
       <div className={styles.container}>
-        <div className={styles.menu}>
+        <div className={menuClass}>
           {menu.map((image, index) => (
             <div
               key={index}

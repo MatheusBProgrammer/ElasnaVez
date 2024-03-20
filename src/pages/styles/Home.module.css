@@ -1,19 +1,32 @@
 .pageElements {
-  background-image: url("../../assets/imgs/background.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
-  padding: 3em;
+  min-height: 100vh;
+  padding: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-
 .container1 {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  height: 70vh;
+  min-height: 50vh;
 }
+.container1 .contentLeft img,
+.container1 .contentCenter img,
+.container1 .contentRight img {
+  height: 10em;
+  object-fit: cover;
+  margin: 2em;
+}
+.container1 .contentCenter img {
+  height: 15em;
+}
+
 .contentLeft h2,
 .contentRight h2 {
   padding-bottom: 1em;
@@ -22,92 +35,18 @@
 .contentRight,
 .contentCenter {
   display: flex;
-  justify-content: start;
   align-items: center;
   flex-direction: column;
-  border-radius: 7px;
-  background-color: white;
+  border-radius: 20px;
   padding: 1em;
   margin: 0.5em;
   min-width: 25%;
   min-height: 30%;
-  position: relative;
-  overflow: auto;
   text-align: center;
-}
-.contentLeft,
-.contentRight {
-  margin-left: 3em;
-  margin-right: 3em;
-  top: 20em;
-  padding-right: 2em;
-  padding-left: 2em;
-}
-
-.bottomElements {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  width: 100%;
-  height: 25%;
-}
-.bottomElements svg {
-  font-size: 5em;
-  color: rgb(141, 106, 106);
-}
-.bottomIconBox {
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 8%;
-  height: 50%;
-  background-color: rgb(255, 255, 255);
-}
-.contentCenter h2 {
-  font-size: 3em;
-}
-.contentCenter {
   font-size: 1.5em;
 }
-
-@media (max-width: 900px) {
-  .pageElements {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-  }
-  .contentLeft,
-  .contentRight {
-    display: none;
-  }
-  .contentCenter {
-    padding: 0.2em;
-    margin: 0;
-    background-color: rgba(255, 255, 255, 0.829);
-    height: 100%;
-  }
-  .contentCenter h2 {
-    margin-bottom: 1em;
-  }
-  .pageElements .container1 {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    position: relative;
-    height: 100%;
-  }
+@media (max-width: 1100px) {
   .container1 {
-    margin: 0;
-    padding: 0;
-  }
-  .container1 {
-    margin: 0;
-    padding: 0;
-  }
-  .bottomElements {
-    display: none;
+    flex-direction: column;
   }
 }

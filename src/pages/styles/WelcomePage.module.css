@@ -1,0 +1,57 @@
+.container {
+  height: 100vh;
+  background-color: #c21292;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Protest Strike", sans-serif;
+}
+
+.headerContainer {
+  color: white;
+  margin-left: 5em;
+}
+
+.headerContainer h1 {
+  font-size: 10em;
+}
+
+.headerParagraph {
+  font-size: 2em;
+}
+.headerImage img {
+  object-fit: cover;
+  height: 35em;
+  margin-left: 5em;
+}
+
+@keyframes pulsar {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.headerArrowDown {
+  animation: pulsar 3s infinite; /* Usa a animação "pulsar" que dura 2 segundos e se repete infinitamente */
+
+  font-size: 2em;
+  position: absolute;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  left: 50%;
+  bottom: 2%;
+  transform: translateX(
+    -50%
+  ); /* Move o elemento para trás pela metade de sua largura */
+}
+
+.headerArrowDown svg {
+  cursor: pointer;
+}

@@ -1,12 +1,18 @@
 import "./App.css";
 import Navbar from "./components/layout/Navbar";
-import { Outlet } from "react-router-dom";
+import Home from "./pages/Home";
+import QuizPage from "./pages/QuizPage";
+import TimeLine from "./pages/TimeLine";
+import WelcomePage from "./pages/WelcomePage";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Outlet />
+      <WelcomePage />
+      <Home />
+      <TimeLine />
+      <QuizPage />
     </>
   );
 }
