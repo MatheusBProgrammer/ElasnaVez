@@ -1,8 +1,14 @@
 .page {
-  background-image: url("../../assets/imgs/background2.jpg");
+  border-top: 1px solid rgba(0, 0, 0, 0.137);
   background-size: cover;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.page h1 {
+  padding: 1em;
+  font-size: 3em;
 }

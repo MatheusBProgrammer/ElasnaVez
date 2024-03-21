@@ -7,9 +7,7 @@ const QuizComponent: React.FC = () => {
   const [currentQuestion, setCurrentQuestion] = useState<number>(0);
   const [score, setScore] = useState<number>(0);
   const [showScore, setShowScore] = useState<boolean>(false);
-  const [headerText, setHeaderText] = useState<string>(
-    "Hora de testar os seus conhecimentos"
-  );
+  const [headerText, setHeaderText] = useState<string>("Quiz");
 
   const messagesStatus = {
     sucessMessages: [

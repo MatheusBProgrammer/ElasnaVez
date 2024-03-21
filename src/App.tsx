@@ -7,23 +7,26 @@ import WelcomePage from "./pages/WelcomePage";
 import { useRef } from "react";
 
 function App() {
-  const welcomeRef = useRef(null);
-  const homeRef = useRef(null);
-  const timelineRef = useRef(null);
-  const quizRef = useRef(null);
+  const refs = {
+    welcomeRef: useRef(null),
+    homeRef: useRef(null),
+    timelineRef: useRef(null),
+    quizRef: useRef(null),
+  };
+
   return (
     <>
-      <Navbar scrollToRef={{ welcomeRef, homeRef, timelineRef, quizRef }} />
-      <div ref={welcomeRef}>
+      <Navbar scrollToRef={refs} />
+      <div ref={refs.welcomeRef}>
         <WelcomePage />
       </div>
-      <div ref={homeRef}>
+      <div ref={refs.homeRef}>
         <Home />
       </div>
-      <div ref={timelineRef}>
+      <div ref={refs.timelineRef}>
         <TimeLine />
       </div>
-      <div ref={quizRef}>
+      <div ref={refs.quizRef}>
         <QuizPage />
       </div>
     </>
