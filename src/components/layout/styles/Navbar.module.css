@@ -101,6 +101,11 @@
     left: 0.5em;
   }
 }
+@media (max-height: 1000px) {
+  .submenu {
+    justify-content: center;
+  }
+}
 
 @media (max-height: 700px) {
   .submenu {
