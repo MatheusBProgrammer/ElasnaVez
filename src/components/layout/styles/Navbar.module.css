@@ -115,6 +115,7 @@
 
 @media (max-height: 500px) {
   .submenu {
+    justify-content: center;
     top: 5em;
     font-size: 0.4em;
   }
