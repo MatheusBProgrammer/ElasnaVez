@@ -29,7 +29,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrollToRef }) => {
   const handleScrollToRef = (refName: keyof SectionRefs) => () => {
     const ref = scrollToRef[refName];
     ref?.current?.scrollIntoView({ behavior: "smooth" });
-    toggleSubMenu;
+    toggleSubMenu();
   };
 
   return (
