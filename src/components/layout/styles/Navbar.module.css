@@ -101,3 +101,21 @@
     left: 0.5em;
   }
 }
+
+@media (max-height: 700px) {
+  .submenu {
+    font-size: 1em;
+    justify-content: center;
+  }
+  .submenu div {
+    cursor: pointer;
+    margin-bottom: 2em;
+  }
+}
+
+@media (max-height: 500px) {
+  .submenu {
+    top: 5em;
+    font-size: 0.6em;
+  }
+}
