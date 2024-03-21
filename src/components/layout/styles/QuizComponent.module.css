@@ -68,6 +68,6 @@
 }
 @media (max-width: 900px) {
   .header {
-    display: none;
+    font-size: 3em;
   }
 }
