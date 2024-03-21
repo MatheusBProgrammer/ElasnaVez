@@ -1,10 +1,17 @@
 import { useState } from "react";
 import styles from "./styles/Navbar.module.css";
-import { Link } from "react-router-dom";
 import { IoMdMenu } from "react-icons/io";
 import { useSpring, animated } from "@react-spring/web";
 
-function Navbar() {
+interface SectionRefs {
+  [key: string]: React.RefObject<HTMLDivElement>;
+}
+
+interface NavbarProps {
+  scrollToRef: SectionRefs;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ scrollToRef }) => {
   const [showSubMenu, setShowSubMenu] = useState(false);
 
   const toggleSubMenu = () => {
@@ -13,13 +20,14 @@ function Navbar() {
 
   const props = useSpring({
     reset: true,
-    from: {
-      opacity: 0,
-    },
-    to: {
-      opacity: showSubMenu ? 1 : 0,
-    },
+    from: { opacity: 0 },
+    to: { opacity: showSubMenu ? 1 : 0 },
   });
+
+  const handleScrollToRef = (refName: keyof SectionRefs) => () => {
+    const ref = scrollToRef[refName];
+    ref?.current?.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <div className={styles.container}>
@@ -28,28 +36,23 @@ function Navbar() {
       </div>
       {showSubMenu && (
         <animated.div style={props} className={styles.submenu}>
-          <Link to="/section1">SubSeção 1</Link>
-          <Link to="/section2">SubSeção 2</Link>
-          <Link to="/section3">SubSeção 3</Link>
-          <Link to="/section4">SubSeção 4</Link>
-          <Link to="/section5">SubSeção 5</Link>
+          {/* Ajuste as ações para cada submenu se necessário */}
+          <div onClick={handleScrollToRef("section1")}>SubSeção 1</div>
+          <div onClick={handleScrollToRef("section2")}>SubSeção 2</div>
+          <div onClick={handleScrollToRef("section3")}>SubSeção 3</div>
+          <div onClick={handleScrollToRef("section4")}>SubSeção 4</div>
+          <div onClick={handleScrollToRef("section5")}>SubSeção 5</div>
         </animated.div>
       )}
-      <Link to="/" className={styles.navbarItem1}>
+      <div
+        onClick={handleScrollToRef("welcomeRef")}
+        className={styles.navbarItem}
+      >
         Apresentação
-      </Link>
-      <Link to="/timeline" className={styles.timeLine}>
-        Mulheres na História
-      </Link>
-      <Link to="/quizpage" className={styles.quizPage}>
-        Quiz
-      </Link>
-
-      <Link to="/sobre" className={styles.sobre}>
-        Sobre
-      </Link>
+      </div>
+      {/* Os links abaixo podem ser ajustados de forma semelhante, se necessário */}
     </div>
   );
-}
+};
 
 export default Navbar;

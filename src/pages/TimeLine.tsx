@@ -14,7 +14,7 @@ function TimeLine() {
   const menu = [
     { src: img1, name: "Brasil Colônia", page: BrasilColonia }, // Aqui deve ser passado o componente diretamente
     { src: img3, name: "Brasil Império", page: BrasilImperio },
-    { src: img4, name: "Período Regencial", page: Regencial },
+    { src: img4, name: "Brasil Regencial", page: Regencial },
   ];
 
   const [showContent, setShowContent] = React.useState<number | null>(null);

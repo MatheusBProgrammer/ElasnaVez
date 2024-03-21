@@ -48,7 +48,7 @@ function WelcomePage() {
   function handleScroll() {
     window.scrollBy({
       top: window.innerHeight,
-      left: 0,
+      left: 50,
       behavior: "smooth", // Rola suavemente
     });
   }

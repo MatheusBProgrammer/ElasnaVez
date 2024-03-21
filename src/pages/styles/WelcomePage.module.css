@@ -1,10 +1,11 @@
 .container {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #c21292;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: "Protest Strike", sans-serif;
+  min-width: 100%;
 }
 
 .headerContainer {
@@ -20,8 +21,9 @@
   font-size: 2em;
 }
 .headerImage img {
-  object-fit: cover;
+  object-fit: contain;
   height: 35em;
+  width: 100%;
   margin-left: 5em;
 }
 
@@ -54,4 +56,36 @@
 
 .headerArrowDown svg {
   cursor: pointer;
+}
+@media (max-width: 1350px) {
+  .container {
+    min-width: 50vh;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .headerImage img {
+    height: 25em;
+    position: relative;
+    right: 4em;
+  }
+
+  .headerContainer h1 {
+    font-size: 5em;
+  }
+  .headerArrowDown {
+    left: 45%;
+  }
+}
+@media (max-width: 900px) {
+  .container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .headerImage img {
+    height: 15em;
+  }
+
+  .headerArrowDown {
+    display: none;
+  }
 }
