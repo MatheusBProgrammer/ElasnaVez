@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/layout/Navbar";
+import Biography from "./pages/Biography";
 import Home from "./pages/Home";
 import QuizPage from "./pages/QuizPage";
 import TimeLine from "./pages/TimeLine";
@@ -12,6 +13,7 @@ function App() {
     homeRef: useRef(null),
     timelineRef: useRef(null),
     quizRef: useRef(null),
+    biography: useRef(null),
   };
 
   return (
@@ -28,6 +30,9 @@ function App() {
       </div>
       <div ref={refs.quizRef}>
         <QuizPage />
+      </div>
+      <div ref={refs.biography}>
+        <Biography />
       </div>
     </>
   );

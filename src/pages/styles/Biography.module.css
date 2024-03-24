@@ -1,0 +1,38 @@
+/* Biography.module.css */
+.page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+  padding-top: 50px; /* Adicionado espaço no topo */
+}
+
+h1 {
+  font-size: 3em;
+  color: #711db0;
+}
+
+.container {
+  width: 71%;
+  background-color: white;
+  border: 1px solid grey;
+  padding: 20px; /* Adicionado padding para o conteúdo interno */
+  overflow-y: auto; /* Permite scroll se o conteúdo exceder a altura */
+}
+
+.biography {
+  margin-bottom: 20px; /* Espaço entre as biografias */
+}
+
+.biography p {
+  font-size: 1em;
+  color: #333;
+  line-height: 1.5; /* Torna o texto mais legível */
+}
+
+.biography a {
+  color: #711db0; /* Cor de destaque para o link de download */
+  text-decoration: none; /* Remove o sublinhado do link */
+  font-weight: bold; /* Faz o link ficar em negrito */
+}
