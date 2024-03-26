@@ -10,15 +10,22 @@
 
 h1 {
   font-size: 3em;
+  font-weight: bold;
   color: #711db0;
+}
+h2 {
+  color: #711db0;
+  font-style: italic;
 }
 
 .container {
+  margin-top: 3em;
   width: 71%;
   background-color: white;
-  border: 1px solid grey;
+  border: 1px solid rgba(128, 128, 128, 0.062);
   padding: 20px; /* Adicionado padding para o conteúdo interno */
   overflow-y: auto; /* Permite scroll se o conteúdo exceder a altura */
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.301);
 }
 
 .biography {

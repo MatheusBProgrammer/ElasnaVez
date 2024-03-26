@@ -4,9 +4,10 @@ import styles from "./styles/Biography.module.css";
 function Biography() {
   return (
     <div className={styles.page}>
-      <h1>Biografias</h1>
+      <h1>Livros para download</h1>
       <div className={styles.container}>
         <div className={styles.biography}>
+          <h2>Dicionário: Mulheres do Brasil</h2>
           <p>
             Com cerca de 900 verbetes e mais de 270 ilustrações, este
             “Dicionário Mulheres do Brasil” torna-se, a partir de agora,
@@ -24,12 +25,23 @@ function Biography() {
           </a>
         </div>
         <div className={styles.biography}>
+          <h2>Mulheres do Brasil: A história não contada</h2>
           <p>
-            NÃO! AS MULHERES NÃO PRECISAM de mais um homem para falar por elas.
-            A mulher brasileira tem voz própria há anos. Mas eu gosto de contar
-            histórias, e ainda existem histórias a seu respeito que não foram
-            contadas ou não foram contextualizadas dentro do espaço em que
-            existiram...
+            A história não contada resgata a história de mais de 200 mulheres
+            das mais variadas épocas que tiveram suas biografias alteradas,
+            deturpadas ou que simplesmente sequer apareceram nos registros
+            convencionais. Depois de desmistificar as figuras dos imperadores d.
+            Pedro I e d. Leopoldina, o escritor e pesquisador Paulo Rezzutti se
+            dedica a mulheres conhecidas ou ignoradas pela história do Brasil:
+            das guerreiras às vilãs, das mulheres do poder a artistas. Também
+            ilumina trajetórias pouco conhecidas de indígenas e negras
+            escravizadas e avança até os dias atuais, com mulheres como Marielle
+            Franco, a vereadora carioca assassinada em março de 2018 por "ousar"
+            não ser invisível. O livro chega num momento em que a discussão
+            sobre o papel das mulheres na sociedade se intensifica,
+            surpreendendo o leitor ao reapresentar acontecimentos da história do
+            Brasil com as personagens femininas finalmente reinseridas nos
+            papeis de destaque que lhes foram negados pela narrativa oficial.
           </p>
           <a
             href="/pdfs/Mulheres do Brasil.pdf"

@@ -3,6 +3,7 @@ import Navbar from "./components/layout/Navbar";
 import Biography from "./pages/Biography";
 import Home from "./pages/Home";
 import QuizPage from "./pages/QuizPage";
+import Suggestions from "./pages/Suggestions";
 import TimeLine from "./pages/TimeLine";
 import WelcomePage from "./pages/WelcomePage";
 import { useRef } from "react";
@@ -14,6 +15,7 @@ function App() {
     timelineRef: useRef(null),
     quizRef: useRef(null),
     biography: useRef(null),
+    suggestions: useRef(null),
   };
 
   return (
@@ -33,6 +35,9 @@ function App() {
       </div>
       <div ref={refs.biography}>
         <Biography />
+      </div>
+      <div ref={refs.suggestions}>
+        <Suggestions />
       </div>
     </>
   );

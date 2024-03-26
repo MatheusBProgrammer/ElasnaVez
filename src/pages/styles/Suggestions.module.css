@@ -1,0 +1,38 @@
+/* Suggestions.module.css */
+.page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  color: #711db0;
+}
+
+.suggestionItem {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px 0;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.suggestionInfo {
+  font-size: 0.9em;
+  color: #333;
+}
+
+.suggestionDescription {
+  margin-top: 10px;
+  color: #666;
+}
+
+h2 {
+  color: #711db0;
+}

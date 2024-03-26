@@ -1,0 +1,13 @@
+.container {
+  height: 100%;
+  padding: 0.7em;
+  background-color: #711db0;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1em;
+  font-size: 1.5em;
+  border-radius: 10px;
+  color: white;
+}
