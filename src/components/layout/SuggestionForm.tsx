@@ -1,4 +1,4 @@
-import React, { SelectHTMLAttributes } from "react";
+import React from "react";
 import styles from "./styles/SuggestionForm.module.css";
 
 //Definição de tipo

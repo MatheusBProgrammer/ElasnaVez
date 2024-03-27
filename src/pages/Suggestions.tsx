@@ -22,7 +22,7 @@ function Suggestions() {
   React.useEffect(() => {
     const fetchBookSuggestions = async () => {
       try {
-        const response = await fetch("http://localhost:3333/list")
+        await fetch("http://localhost:3333/list")
           .then((resp) => resp.json())
           .then((data) => {
             setBookSuggestions(data);
