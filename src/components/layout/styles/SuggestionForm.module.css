@@ -1,13 +1,29 @@
+/* SuggestionForm.module.css */
 .container {
   height: 100%;
   padding: 0.7em;
-  background-color: #711db0;
-  margin: 1em;
+  margin: 1em auto; /* Centra o formulário horizontalmente com uma margem */
   display: flex;
   flex-direction: column;
+  gap: 20px; /* Espaço entre os campos do formulário */
   width: 100%;
+  max-width: 500px; /* Largura máxima para o container para não ficar muito largo em telas grandes */
   padding: 1em;
-  font-size: 1.5em;
+  font-size: 1em; /* Ajuste para a fonte, caso deseje manter o padrão do Material-UI */
   border-radius: 10px;
   color: white;
+}
+
+.MuiFormControl-root,
+.MuiTextField-root {
+  /* Estilização para os componentes FormControl e TextField do Material-UI */
+  background-color: white; /* Define o fundo como branco */
+  margin-bottom: 20px; /* Adiciona espaço abaixo de cada FormControl/TextField */
+  border-radius: 5px; /* Adiciona bordas arredondadas aos elementos do formulário */
+}
+
+/* Adiciona estilos específicos para o último elemento do formulário para evitar espaçamento extra */
+.MuiFormControl-root:last-child,
+.MuiTextField-root:last-child {
+  margin-bottom: 0;
 }
