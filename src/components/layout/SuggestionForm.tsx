@@ -5,7 +5,6 @@ import {
   Select,
   MenuItem,
   TextField,
-  Button,
 } from "@mui/material";
 import { SelectChangeEvent } from "@mui/material/Select";
 import styles from "./styles/SuggestionForm.module.css"; // Importando o CSS Module
